@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#PBS -N test_los_tau                                                                                                                         
+#PBS -l walltime=00:40:00                                                                                                            
+#PBS -m bea                                                                                                                          
+#PBS -l nodes=1:ppn=20                                                                                                               
+#PBS -q regular
+
+python /home/rmurgia/ML/read_los_tau_ALL_420.py > /home/rmurgia/ML/test_logfile
