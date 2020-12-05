@@ -2,44 +2,44 @@
 ### A script to read tau and fluxes previously extracted and to compute 
 ### the 1dimensional lyman-alpha flux power spectra
 
-########################################## INPUT
-
 import numpy as np
 import os, sys
-import matplotlib.pyplot as plt
-from lmfit import Minimizer, Parameters, report_fit
+import time
 
+########################################## INPUT
+
+root = 'NCDM_'
+sims = [1] #which sims
+F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
+z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
+BoxSize = 20.
+
+TEST = 'no' # = 'EJA' to make test on 2 z-bins only
 flux_path = '../ML_catalogues/'
-
 out_path = '../ML_catalogues/'
 if not os.path.exists(out_path):
   os.makedirs(out_path)
 
-root = 'NCDM_'
-sims = [1] #how many sims
+
+
+########################generally to not to touch hereafter
 nbins = 2048
 nlos = 5000
 PF_matrix = np.zeros((nlos,nbins))
 PF = np.zeros(nbins)
-F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
-z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
-BoxSize = 20.
 kF = 2.0*np.pi/BoxSize #fundamental frequency  
 middle = nbins/2  
 kN = middle*kF #Nyquist frequency
-time_step = 0.5/kN
+spatial_step = 0.5/kN
 
-TEST = 'EJA' # = 'EJA' to make test on 2 z-bins only
-
-###################################################################
 def func_A(A, tau_sim_list, meanF_obs, meanF_sim):
 	factor = meanF_sim/meanF_obs
 	numerator = np.sum(np.exp(-tau_sim_list))
 	denominator = np.sum(np.exp(-tau_sim_list/A))
 	result = np.abs(factor - (numerator/denominator))
 	return result
+###################################################################
 
-############################### loop on sims and redshifts
 
 if TEST == 'EJA':
 
@@ -48,11 +48,10 @@ if TEST == 'EJA':
 	print('num of redshift bins = '+np.str(np.shape(zbins)))
 	print('num of sims = '+str(len(sims)))
 
+############################### loop on sims and redshifts
 else:
 
 	zbins = z_obs_list
-	# for i in np.linspace(2.2,6.0,num=39):
-	# 	zbins.append(i)
 	print('num of redshift bins = '+np.str(np.shape(zbins)))
 	print('num of sims = '+str(len(sims)))
 
@@ -91,8 +90,7 @@ for sim_index in sims:   #loop on sims
 		
 		index = np.where(y == min(y))
 		best_A = A_list[index][0]
-		# np.savetxt("prova2", np.transpose([A_list,y]))
-
+		
 		print("norm. factor A ="+str(best_A))
 
 		flux_array_new = np.zeros(len(flux_array))
@@ -113,7 +111,7 @@ for sim_index in sims:   #loop on sims
 				print("ERROR!!"); break
 
 			##compute 1D fft of delta_array
-			FFT = np.fft.fft(deltas)
+			FFT = np.fft.fft(deltas)/len(deltas)
 			
 			##compute 1D power spectrum
 			PF_matrix[i][:] = np.abs(FFT)**2
@@ -121,13 +119,13 @@ for sim_index in sims:   #loop on sims
 		print(len(PF))
 
 		PF = PF_matrix[0][:]
-		freqs = np.fft.fftfreq(deltas.size, time_step)
+		freqs = np.fft.fftfreq(deltas.size, spatial_step)
 		idx = np.argsort(freqs)
 
 		print(np.shape(freqs))
-		print(freqs)
+		# print(freqs)
 		print(np.shape(PF))
-		print(PF)
+		# print(PF)
 		
 		## average over the nlos different P_flux
 		to_be_avg = np.zeros(nlos)
@@ -138,14 +136,12 @@ for sim_index in sims:   #loop on sims
 		print(len(to_be_avg))
 
 		end = int(0.5*nbins+1)
-		##converting from dimension-less power spectrum to P_F(k) in (h/Mpc) IN 1-DIM
+
+		##converting from dimension-less power spectrum to P_F(k) in (h/Mpc) (WE ARE IN 1-DIM)
 		freqs_final = np.abs(freqs[1:end])
 		PF_final = np.zeros(len(freqs_final))
 		PF_final[:] = 2*np.pi*PF[1:end]/freqs_final[:]
 
-		np.savetxt(out_folder+"PF_z3.dat",np.transpose([freqs_final,PF_final]))
-
-		plt.loglog(np.abs(freqs_final),PF_final)
-		x,y = np.loadtxt("/Users/rmurgia/Dropbox/SISSA/project/INTERPOLATION/NCDM_TEST/NCDM_TEST_1pf_z=3.0.txt", usecols=[0,1], unpack=True)
-		plt.loglog(x,y)
-		plt.show()
+		np.savetxt(out_folder+"PF_"+root+"_"+str(sim_index)+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
+		print("**DONE WITH z="+str(z_index))
+	print("*DONE WITH model "+root+"_"+str(sim_index))
