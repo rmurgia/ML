@@ -15,8 +15,8 @@ z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 BoxSize = 20.
 
 TEST = 'no' # = 'EJA' to make test on 2 z-bins only
-flux_path = '../ML_catalogues/'
-out_path = '../ML_catalogues/'
+flux_path = '/scratch/rmurgia/ML_catalogues/'
+out_path = '/home/rmurgia/PF_ML/'
 if not os.path.exists(out_path):
   os.makedirs(out_path)
 
@@ -58,8 +58,8 @@ else:
 
 for sim_index in sims:   #loop on sims
 
-	sim_folder = out_path+root+str(sim_index)
-	out_folder = sim_folder+'/PF/'	#input/output folder
+	sim_folder = flux_path+root+str(sim_index)
+	out_folder = out_path+root+str(sim_index)+'/PF/'	#input/output folder
 	if not os.path.exists(out_folder):
 		os.makedirs(out_folder)
 
@@ -140,8 +140,9 @@ for sim_index in sims:   #loop on sims
 		##converting from dimension-less power spectrum to P_F(k) in (h/Mpc) (WE ARE IN 1-DIM)
 		freqs_final = np.abs(freqs[1:end])
 		PF_final = np.zeros(len(freqs_final))
-		PF_final[:] = 2*np.pi*PF[1:end]/freqs_final[:]
+		#PF_final[:] = 2*np.pi*PF[1:end]/freqs_final[:]
+		PF_final[:] = PF[1:end]
 
-		np.savetxt(out_folder+"PF_"+root+"_"+str(sim_index)+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
+		np.savetxt(out_folder+"PF_"+root+str(sim_index)+"_z"+str(z_index)+"_new.dat",np.transpose([freqs_final,PF_final]))
 		print("**DONE WITH z="+str(z_index))
-	print("*DONE WITH model "+root+"_"+str(sim_index))
+	print("*DONE WITH model "+root+str(sim_index))
