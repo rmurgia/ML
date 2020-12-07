@@ -1,15 +1,23 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x,y = np.loadtxt("/Users/rmurgia/Dropbox/SISSA/project/INTERPOLATION/NCDM_TEST/NCDM_TEST_1pf_z=3.0.txt", usecols=[0,1], unpack=True)
+# [3.0,3.2,3.4,3.6,3.8,4.0,4.2,4.6,5.0]
+for i in [3.0,5.0]:
+	
+	x,y = np.loadtxt("/Users/rmurgia/Dropbox/SISSA/project/INTERPOLATION/NCDM_TEST/NCDM_TEST_1pf_z="+str(i)+".txt", usecols=[0,1], unpack=True)
 
-x0,y0,z0  = np.loadtxt("/Users/rmurgia/Desktop/cluster_github/ML_catalogues/NCDM_1/PF/PF_z3.dat", usecols=[0,1,2], unpack=True)
-
-# plt.loglog(x,y, label="old")
-# plt.loglog(x0,y0, label="new, dim")
-# plt.loglog(x0,z0, label="new, adim")
-plt.xscale('log')
-plt.plot(x0,(y-y0)/y)
-plt.ylim(-0.01,0.01)
-plt.legend()
-plt.show()
+	x0,y0  = np.loadtxt("/Users/rmurgia/Desktop/cluster_github/ML_catalogues/NCDM_1/PF/PF_NCDM__1_z"+str(i)+".dat", usecols=[0,1], unpack=True)
+	z0  = np.loadtxt("/Users/rmurgia/Desktop/cluster_github/ML_catalogues/NCDM_1/PF/PF_NCDM_1_z"+str(i)+"_test.dat", usecols=[1])
+	
+	plt.loglog(x,y, label="old")
+	# plt.loglog(x0,y0, label="new")
+	plt.loglog(x0,z0, label="new new")
+	# y = (2*np.pi)*y/x
+	plt.title("z = "+str(i))
+	# plt.xscale('log')
+	# plt.xlim(min(x),1e2)
+	# plt.plot(x,(y-z0)/y)
+	# plt.ylim(-0.2,0.2)
+	
+	plt.legend()
+	plt.show()
