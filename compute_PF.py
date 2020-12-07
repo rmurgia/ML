@@ -4,17 +4,19 @@
 
 import numpy as np
 import os, sys
-import time
 
 ########################################## INPUT
 
 root = 'NCDM_'
 sims = [1] #which sims
-F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
-z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
+#F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
+#z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
+F_obs_list = [0.146033, 0.0712724]
+z_obs_list = [5.0,5.4]
+
 BoxSize = 20.
 
-TEST = 'no' # = 'EJA' to make test on 2 z-bins only
+TEST = 'no' # = 'EJA' to make test on the first z-bin only
 flux_path = '/scratch/rmurgia/ML_catalogues/'
 out_path = '/home/rmurgia/PF_ML/'
 if not os.path.exists(out_path):
@@ -35,7 +37,7 @@ spatial_step = 0.5/kN
 def func_A(A, tau_sim_list, meanF_obs, meanF_sim):
 	factor = meanF_sim/meanF_obs
 	numerator = np.sum(np.exp(-tau_sim_list))
-	denominator = np.sum(np.exp(-tau_sim_list/A))
+	denominator = np.sum(np.exp(-tau_sim_list*A))
 	result = np.abs(factor - (numerator/denominator))
 	return result
 ###################################################################
@@ -76,19 +78,22 @@ for sim_index in sims:   #loop on sims
 		print("<F> ="+str(mean_flux))
 		print("observed <F> ="+str(mean_flux_obs))
 
-		if mean_flux > mean_flux_obs:
-			A_list = np.linspace(0.7,1., num=2000)
-			print("A < 1")
+		#if mean_flux > mean_flux_obs:
+		#	A_list = np.linspace(0.1,1., num=3000)
+		#	print("A < 1")
 		
-		elif mean_flux < mean_flux_obs:
-			A_list = np.linspace(1.,1.3, num=2000)
-			print("A > 1")
-		
+		#elif mean_flux < mean_flux_obs:
+		#	A_list = np.linspace(1.,1.9, num=3000)
+		#	print("A > 1")
+
+		A_list = np.linspace(0.01,1., num=3000)
+			
 		y = []
 		for i,A in zip(range(len(A_list)),A_list):
 			y.append(func_A(A, tau_array, mean_flux_obs, mean_flux))
 		
 		index = np.where(y == min(y))
+		print("minimum difference is"+str(min(y)))
 		best_A = A_list[index][0]
 		
 		print("norm. factor A ="+str(best_A))
@@ -96,7 +101,7 @@ for sim_index in sims:   #loop on sims
 		flux_array_new = np.zeros(len(flux_array))
 		delta_array = np.zeros(len(flux_array))
 
-		flux_array_new[:] = np.exp(-tau_array[:]/best_A)  #new flux array (normalized to the obs. flux)
+		flux_array_new[:] = np.exp(-tau_array[:]*best_A)  #new flux array (normalized to the obs. flux)
 		mean_flux_new = np.mean(flux_array_new)
 		print("<F>_NEW ="+str(mean_flux_new))
 		delta_array[:] = (flux_array_new[:] - mean_flux_new)/mean_flux_new #1D density field
@@ -143,6 +148,6 @@ for sim_index in sims:   #loop on sims
 		#PF_final[:] = 2*np.pi*PF[1:end]/freqs_final[:]
 		PF_final[:] = PF[1:end]
 
-		np.savetxt(out_folder+"PF_"+root+str(sim_index)+"_z"+str(z_index)+"_new.dat",np.transpose([freqs_final,PF_final]))
+		np.savetxt(out_folder+"PF_"+root+str(sim_index)+"_z"+str(z_index)+"_test.dat",np.transpose([freqs_final,PF_final]))
 		print("**DONE WITH z="+str(z_index))
 	print("*DONE WITH model "+root+str(sim_index))
