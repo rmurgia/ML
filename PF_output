@@ -1,0 +1,62 @@
+You have only (1,) redshift bin because it's a test!
+num of redshift bins = (1,)
+num of sims = 1
+<F> =0.22389515983778474
+observed <F> =0.364155
+minimum difference is 4.1847819418072696e-05
+norm. factor A =0.5315738579526509
+<F>_NEW =0.3641797873582253
+len(deltas) = 10240000
+2048
+(2048,)
+(2048,)
+5000
+**DONE WITH z=4.2
+*DONE WITH model NCDM_1
+num of redshift bins = (4,)
+num of sims = 1
+<F> =0.22389515983778474
+observed <F> =0.364155
+minimum difference is 4.1847819418072696e-05
+norm. factor A =0.5315738579526509
+<F>_NEW =0.3641797873582253
+len(deltas) = 10240000
+2048
+(2048,)
+(2048,)
+5000
+**DONE WITH z=4.2
+<F> =0.11061447265529993
+observed <F> =0.253828
+minimum difference is 7.958436681554382e-05
+norm. factor A =0.46951317105701895
+<F>_NEW =0.253781653647244
+len(deltas) = 10240000
+2048
+(2048,)
+(2048,)
+5000
+**DONE WITH z=4.6
+<F> =0.04585684371636725
+observed <F> =0.146033
+minimum difference is 9.900674095419948e-05
+norm. factor A =0.47050350116705564
+<F>_NEW =0.14598697161762628
+len(deltas) = 10240000
+2048
+(2048,)
+(2048,)
+5000
+**DONE WITH z=5.0
+<F> =0.013940556361599894
+observed <F> =0.0712724
+minimum difference is 9.94817154554295e-05
+norm. factor A =0.4592797599199733
+<F>_NEW =0.07130866827233488
+len(deltas) = 10240000
+2048
+(2048,)
+(2048,)
+5000
+**DONE WITH z=5.4
+*DONE WITH model NCDM_1

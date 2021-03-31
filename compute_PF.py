@@ -17,11 +17,11 @@ z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 
 BoxSize = 20.
 
-TEST = 'EJA' # = 'EJA' to make test on the first z-bin only
-#flux_path = '/scratch/rmurgia/ML_catalogues/'
-#out_path = '/home/rmurgia/PF_ML/'
-flux_path = '../ML_catalogues/'
-out_path = '../ML_catalogues/'
+TEST = 'no' # = 'EJA' to make test on the first z-bin only
+flux_path = '/scratch/rmurgia/ML_catalogues/'
+out_path = '/home/rmurgia/PF_ML/'
+#flux_path = '../ML_catalogues/'
+#out_path = '../ML_catalogues/'
 if not os.path.exists(out_path):
   os.makedirs(out_path)
 

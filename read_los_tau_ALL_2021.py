@@ -22,17 +22,17 @@ def len_all(ilos,ylos,zlos,posaxis,velaxis,rhokerH,rhokerH1,tempkerH1,velkerH1):
 	return(len(ilos),len(xlos),len(ylos),len(zlos),len(posaxis),len(velaxis),np.shape(rhokerH),np.shape(rhokerH1),np.shape(tempkerH1),np.shape(velkerH1))
 ########################################## INPUT
 
-sim_path = '/scratch/rmurgia/HYDRO_output/'
+sim_path = '/scratch/gscelfo/PBHs_sims_z199_box20/'
 
 out_path = '/scratch/rmurgia/ML_catalogues/'
 if not os.path.exists(out_path):
   os.makedirs(out_path)
 
-root = 'NCDM_'
-sim_num = 21 #how many sims
-offset = 7  #standard offset is 1 (label of first sim)
-steps = 5   #number of files where you want to store "ker" quantities
+root = 'lcd'
+labels = ['m']
+sim_num = len(labels) #how many sims
 
+steps = 5   #number of files where you want to store "ker" quantities
 TEST = 'EJA' # = 'EJA' to make test on 2 z-bins only
 
 ############################### loop on sims and redshifts
@@ -40,9 +40,9 @@ TEST = 'EJA' # = 'EJA' to make test on 2 z-bins only
 if TEST == 'EJA':
 
 	zbins = [2.2, 6.0]
-	print "You have only "+str(np.shape(zbins))+" redshift bins because it's a test!"
-	print 'num of reshift bins = '+np.str(np.shape(zbins))
-	print 'num of sims = '+str(sim_num)
+	print("You have only "+str(np.shape(zbins))+" redshift bins because it's a test!")
+	print('num of reshift bins = '+np.str(np.shape(zbins)))
+	print('num of sims = '+str(sim_num))
 
 else:
 
@@ -50,16 +50,17 @@ else:
   	for i in np.linspace(2.1,6.0,num=40):
     		zbins.append(i)
  	zbins.append(9.0)
-  	print 'num of reshift bins = '+np.str(np.shape(zbins))
-  	print 'num of sims = '+str(sim_num)
+  	print('num of reshift bins = '+np.str(np.shape(zbins)))
+  	print('num of sims = '+str(sim_num))
 
 
-for sim_index in range(offset, offset+sim_num):   #loop on sims
-	
-	los_path = sim_path+root+str(sim_index)+'/los/'
-	print "I'm starting with the "+str(sim_index)+" sim"
+for sim_index in range(sim_num):   #loop on sims
 
-	sim_out_folder = out_path+root+str(sim_index)+'/'	#making output folder folder for the sim
+	label = labels[sim_index]	
+	los_path = sim_path+root+label+'/los/'
+	print("I'm starting with the "+label+" sim")
+
+	sim_out_folder = out_path+root+str(label)+'/'	#making output folder folder for the sim
 	if not os.path.exists(sim_out_folder):
     		os.makedirs(sim_out_folder)
 
@@ -81,9 +82,9 @@ for sim_index in range(offset, offset+sim_num):   #loop on sims
 		with open(los_file, "rb") as f:   #READING FILE
     			results = [struct_unpack(chunk) for chunk in read_chunks(f, struct_len)]
 
-		print "los has been read (& blue):"
-		print "LOS file elements = "+str(np.size(results))
-		print np.shape(results)	
+		print("los has been read (& blue):")
+		print("LOS file elements = "+str(np.size(results)))
+		print( np.shape(results))
 	
 		#################### read header and compute offset
 
@@ -93,13 +94,13 @@ for sim_index in range(offset, offset+sim_num):   #loop on sims
 
 		h_labels=['ztime','om_out','ol_out','ob_out','h_out','box_out','xh_out']
 
-		print "Header Read (& Blue)"
+		print("Header Read (& Blue)")
 
-		print "n bins = "+str(nbins)
-		print "n los = "+str(nlos)
+		print("n bins = "+str(nbins))
+		print("n los = "+str(nlos))
 
 		for i in range(header-2):
-			print h_labels[i]+" = "+str(results[0][i])
+			print(h_labels[i]+" = "+str(results[0][i])
 
 		nbins_range = np.linspace(1,nbins, num=nbins)
 		nlos_range = np.linspace(1,nlos, num=nlos)
@@ -164,10 +165,10 @@ for sim_index in range(offset, offset+sim_num):   #loop on sims
           				velkerH1 = np.concatenate((velkerH1,y))
           
             		## save results to file (one per each redshift bin)
-			fout1 = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_xyzlos.dat'
-      			fout2 = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_pvaxis.dat'
-      			fout3nodat = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_rhotvelker'
-      			fout3 = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_rhotvelker.dat'
+			fout1 = z_out_folder+root+label+'_z='+str(z_index)+'_xyzlos.dat'
+      			fout2 = z_out_folder+root+label+'_z='+str(z_index)+'_pvaxis.dat'
+      			fout3nodat = z_out_folder+root+label+'_z='+str(z_index)+'_rhotvelker'
+      			fout3 = z_out_folder+root+label+'_z='+str(z_index)+'_rhotvelker.dat'
 
       			FH = "n bins = "+str(nbins)+" \n n los = "+str(nlos)+" \n "+str(h_labels[:7])+" \n "+str(results[0][:7])+" \n"
       			h1 = "ilos, xlos, ylos, zlos"
@@ -191,16 +192,16 @@ for sim_index in range(offset, offset+sim_num):   #loop on sims
       			for j in range(1,4):
         			if j == 1:
           				np.savetxt(fout1, np.transpose([xlos_arr,ylos_arr,zlos_arr]), header = FH+h1)
-          				print "> File %s saved: " %fout1
+          				print("> File %s saved: " %fout1)
         			elif j == 2:
           				np.savetxt(fout2, np.transpose([posaxis,velaxis]), header = FH+h2)
-          				print "> File %s saved: " %fout2
-          				print 'steps = '+str(steps)
+          				print("> File %s saved: " %fout2)
+          				print('steps = '+str(steps))
         			elif j == 3:
           				l_step = (nlos/steps)*nbins
           				for f_index in range(0,steps):
             					np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
-            				print "> File %s saved: " %fout3
+            				print("> File %s saved: " %fout3)
            
 		else:      ##BOTH LOS AND TAU
 
@@ -217,9 +218,9 @@ for sim_index in range(offset, offset+sim_num):   #loop on sims
           				tau_arr.append(x.tauH1)
           				flux_arr.append(np.exp(-x.tauH1))
 
-      			print "tau has been read (& blue):"
-      			print "TAU file elements = "+str(np.size(tau_arr))
-      			print np.shape(tau_arr)
+      			print("tau has been read (& blue):")
+      			print("TAU file elements = "+str(np.size(tau_arr)))
+      			print(np.shape(tau_arr))
 
 
       			### READ (AND PLOT) LOS
@@ -278,10 +279,10 @@ for sim_index in range(offset, offset+sim_num):   #loop on sims
           				velkerH1 = np.concatenate((velkerH1,y))
           
             		## save results to file (one per each redshift bin)
-      			fout1 = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_xyzlos.dat'
-      			fout2 = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_pvaxis.dat'
-			fout3nodat = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_rhotvelker'
-      			fout3 = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_rhotvelker.dat'
+      			fout1 = z_out_folder+root+label+'_z='+str(z_index)+'_xyzlos.dat'
+      			fout2 = z_out_folder+root+label+'_z='+str(z_index)+'_pvaxis.dat'
+			fout3nodat = z_out_folder+root+label+'_z='+str(z_index)+'_rhotvelker'
+      			fout3 = z_out_folder+root+label+'_z='+str(z_index)+'_rhotvelker.dat'
 
       			FH = "n bins = "+str(nbins)+" \n n los = "+str(nlos)+" \n "+str(h_labels[:7])+" \n "+str(results[0][:7])+" \n"
       			h1 = "ilos, xlos, ylos, zlos"
@@ -305,23 +306,23 @@ for sim_index in range(offset, offset+sim_num):   #loop on sims
       			for j in range(1,4):
         			if j == 1:
           				np.savetxt(fout1, np.transpose([xlos_arr,ylos_arr,zlos_arr]), header = FH+h1)
-          				print "> File %s saved: " %fout1
+          				print("> File %s saved: " %fout1)
         			elif j == 2:
           				np.savetxt(fout2, np.transpose([posaxis,velaxis]), header = FH+h2)
-          				print "> File %s saved: " %fout2
-          				print 'steps = '+str(steps)
+          				print("> File %s saved: " %fout2)
+          				print('steps = '+str(steps))
         			elif j == 3:
           				l_step = (nlos/steps)*nbins
           				for f_index in range(0,steps):
             					np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
-            			print "> File %s saved: " %fout3			
+            			print("> File %s saved: " %fout3)			
 
     			### READ (AND PLOT) TAU
-			fout = z_out_folder+root+str(sim_index)+'_z='+str(z_index)+'_tauF.dat'
+			fout = z_out_folder+root+label+'_z='+str(z_index)+'_tauF.dat'
     			FH = "n bins = "+str(nbins)+" \n n los = "+str(nlos)+" \n "+str(h_labels[:7])+" \n "+str(results[0][:7])+" \n tau_arr, flux_arr"
 			np.savetxt(fout, np.transpose([tau_arr,flux_arr]), header = FH)
-      			print "> File %s saved: " %fout
+      			print("> File %s saved: " %fout)
 
-		print "z = "+str(z_index)+" for sim "+root+str(sim_index)+" read (& blue)!"
+		print("z = "+str(z_index)+" for sim "+root+label+" read (& blue)!")
 
-	print "sim "+root+str(sim_index)+" completely read (& blue)!"
+	print("sim "+root+label+" completely read (& blue)!")
