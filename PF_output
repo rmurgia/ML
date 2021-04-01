@@ -60,3 +60,8 @@ len(deltas) = 10240000
 5000
 **DONE WITH z=5.4
 *DONE WITH model NCDM_1
+num of redshift bins = (10,)
+num of redshift bins = (10,)
+num of sims = 1
+num of redshift bins = (10,)
+num of sims = 1

@@ -1,0 +1,1021 @@
+num of reshift bins = (41,)
+num of sims = 1
+I'm starting with the lcdm sim
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.100000012843735
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.1/lcdm_z=2.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.1/lcdm_z=2.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.1/lcdm_z=2.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.1/lcdm_z=2.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.1/lcdm_z=2.1_rhotvelker.dat saved: 
+z = 2.1 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.20000001208979
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_tauF.dat saved: 
+z = 2.2 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.3000000174260724
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.3/lcdm_z=2.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.3/lcdm_z=2.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.3/lcdm_z=2.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.3/lcdm_z=2.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.3/lcdm_z=2.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.3/lcdm_z=2.3_tauF.dat saved: 
+z = 2.3 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.400000017594089
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.4/lcdm_z=2.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.4/lcdm_z=2.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.4/lcdm_z=2.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.4/lcdm_z=2.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.4/lcdm_z=2.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.4/lcdm_z=2.4_tauF.dat saved: 
+z = 2.4 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.5000000204935495
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.5/lcdm_z=2.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.5/lcdm_z=2.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.5/lcdm_z=2.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.5/lcdm_z=2.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.5/lcdm_z=2.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.5/lcdm_z=2.5_tauF.dat saved: 
+z = 2.5 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.600000024455896
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.6/lcdm_z=2.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.6/lcdm_z=2.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.6/lcdm_z=2.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.6/lcdm_z=2.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.6/lcdm_z=2.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.6/lcdm_z=2.6_tauF.dat saved: 
+z = 2.6 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.7000000137943037
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.7/lcdm_z=2.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.7/lcdm_z=2.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.7/lcdm_z=2.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.7/lcdm_z=2.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.7/lcdm_z=2.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.7/lcdm_z=2.7_tauF.dat saved: 
+z = 2.7 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.800000025715555
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.8/lcdm_z=2.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.8/lcdm_z=2.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.8/lcdm_z=2.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.8/lcdm_z=2.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.8/lcdm_z=2.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.8/lcdm_z=2.8_tauF.dat saved: 
+z = 2.8 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.900000017729251
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.9/lcdm_z=2.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.9/lcdm_z=2.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.9/lcdm_z=2.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.9/lcdm_z=2.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.9/lcdm_z=2.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.9/lcdm_z=2.9_tauF.dat saved: 
+z = 2.9 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.0000000272394036
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.0/lcdm_z=3.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.0/lcdm_z=3.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.0/lcdm_z=3.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.0/lcdm_z=3.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.0/lcdm_z=3.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.0/lcdm_z=3.0_tauF.dat saved: 
+z = 3.0 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.1000000081246766
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.1/lcdm_z=3.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.1/lcdm_z=3.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.1/lcdm_z=3.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.1/lcdm_z=3.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.1/lcdm_z=3.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.1/lcdm_z=3.1_tauF.dat saved: 
+z = 3.1 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.2000000160693833
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.2/lcdm_z=3.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.2/lcdm_z=3.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.2/lcdm_z=3.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.2/lcdm_z=3.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.2/lcdm_z=3.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.2/lcdm_z=3.2_tauF.dat saved: 
+z = 3.2 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.300000010508893
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.3/lcdm_z=3.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.3/lcdm_z=3.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.3/lcdm_z=3.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.3/lcdm_z=3.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.3/lcdm_z=3.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.3/lcdm_z=3.3_tauF.dat saved: 
+z = 3.3 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.400000014378839
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.4/lcdm_z=3.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.4/lcdm_z=3.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.4/lcdm_z=3.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.4/lcdm_z=3.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.4/lcdm_z=3.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.4/lcdm_z=3.4_tauF.dat saved: 
+z = 3.4 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.500000009011414
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.5/lcdm_z=3.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.5/lcdm_z=3.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.5/lcdm_z=3.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.5/lcdm_z=3.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.5/lcdm_z=3.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.5/lcdm_z=3.5_tauF.dat saved: 
+z = 3.5 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.600000009768138
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.6/lcdm_z=3.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.6/lcdm_z=3.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.6/lcdm_z=3.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.6/lcdm_z=3.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.6/lcdm_z=3.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.6/lcdm_z=3.6_tauF.dat saved: 
+z = 3.6 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.7000000097248114
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.7/lcdm_z=3.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.7/lcdm_z=3.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.7/lcdm_z=3.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.7/lcdm_z=3.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.7/lcdm_z=3.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.7/lcdm_z=3.7_tauF.dat saved: 
+z = 3.7 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.800000022946856
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.8/lcdm_z=3.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.8/lcdm_z=3.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.8/lcdm_z=3.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.8/lcdm_z=3.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.8/lcdm_z=3.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.8/lcdm_z=3.8_tauF.dat saved: 
+z = 3.8 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.900000004208036
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.9/lcdm_z=3.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.9/lcdm_z=3.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.9/lcdm_z=3.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.9/lcdm_z=3.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.9/lcdm_z=3.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=3.9/lcdm_z=3.9_tauF.dat saved: 
+z = 3.9 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.000000010095412
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.0/lcdm_z=4.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.0/lcdm_z=4.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.0/lcdm_z=4.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.0/lcdm_z=4.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.0/lcdm_z=4.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.0/lcdm_z=4.0_tauF.dat saved: 
+z = 4.0 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.100000031504063
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.1/lcdm_z=4.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.1/lcdm_z=4.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.1/lcdm_z=4.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.1/lcdm_z=4.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.1/lcdm_z=4.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.1/lcdm_z=4.1_tauF.dat saved: 
+z = 4.1 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.200000013172908
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.2/lcdm_z=4.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.2/lcdm_z=4.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.2/lcdm_z=4.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.2/lcdm_z=4.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.2/lcdm_z=4.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.2/lcdm_z=4.2_tauF.dat saved: 
+z = 4.2 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.300000000065438
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.3/lcdm_z=4.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.3/lcdm_z=4.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.3/lcdm_z=4.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.3/lcdm_z=4.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.3/lcdm_z=4.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.3/lcdm_z=4.3_tauF.dat saved: 
+z = 4.3 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.400000042097537
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.4/lcdm_z=4.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.4/lcdm_z=4.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.4/lcdm_z=4.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.4/lcdm_z=4.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.4/lcdm_z=4.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.4/lcdm_z=4.4_tauF.dat saved: 
+z = 4.4 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.500000034648401
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.5/lcdm_z=4.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.5/lcdm_z=4.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.5/lcdm_z=4.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.5/lcdm_z=4.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.5/lcdm_z=4.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.5/lcdm_z=4.5_tauF.dat saved: 
+z = 4.5 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.600000010154668
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.6/lcdm_z=4.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.6/lcdm_z=4.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.6/lcdm_z=4.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.6/lcdm_z=4.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.6/lcdm_z=4.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.6/lcdm_z=4.6_tauF.dat saved: 
+z = 4.6 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.700000044287785
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.7/lcdm_z=4.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.7/lcdm_z=4.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.7/lcdm_z=4.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.7/lcdm_z=4.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.7/lcdm_z=4.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.7/lcdm_z=4.7_tauF.dat saved: 
+z = 4.7 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.80000004001242
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.8/lcdm_z=4.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.8/lcdm_z=4.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.8/lcdm_z=4.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.8/lcdm_z=4.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.8/lcdm_z=4.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.8/lcdm_z=4.8_tauF.dat saved: 
+z = 4.8 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.900000019654312
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.9/lcdm_z=4.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.9/lcdm_z=4.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.9/lcdm_z=4.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.9/lcdm_z=4.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.9/lcdm_z=4.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=4.9/lcdm_z=4.9_tauF.dat saved: 
+z = 4.9 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.000000046874317
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.0/lcdm_z=5.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.0/lcdm_z=5.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.0/lcdm_z=5.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.0/lcdm_z=5.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.0/lcdm_z=5.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.0/lcdm_z=5.0_tauF.dat saved: 
+z = 5.0 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.100000015905486
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.1/lcdm_z=5.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.1/lcdm_z=5.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.1/lcdm_z=5.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.1/lcdm_z=5.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.1/lcdm_z=5.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.1/lcdm_z=5.1_tauF.dat saved: 
+z = 5.1 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.200000019424384
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.2/lcdm_z=5.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.2/lcdm_z=5.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.2/lcdm_z=5.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.2/lcdm_z=5.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.2/lcdm_z=5.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.2/lcdm_z=5.2_tauF.dat saved: 
+z = 5.2 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.30000003042005
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.3/lcdm_z=5.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.3/lcdm_z=5.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.3/lcdm_z=5.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.3/lcdm_z=5.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.3/lcdm_z=5.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.3/lcdm_z=5.3_tauF.dat saved: 
+z = 5.3 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.400000017714462
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.4/lcdm_z=5.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.4/lcdm_z=5.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.4/lcdm_z=5.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.4/lcdm_z=5.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.4/lcdm_z=5.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.4/lcdm_z=5.4_tauF.dat saved: 
+z = 5.4 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.5000000361727786
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.5/lcdm_z=5.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.5/lcdm_z=5.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.5/lcdm_z=5.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.5/lcdm_z=5.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.5/lcdm_z=5.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.5/lcdm_z=5.5_tauF.dat saved: 
+z = 5.5 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.60000002818499
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.6/lcdm_z=5.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.6/lcdm_z=5.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.6/lcdm_z=5.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.6/lcdm_z=5.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.6/lcdm_z=5.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.6/lcdm_z=5.6_tauF.dat saved: 
+z = 5.6 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.7000000375039885
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.7/lcdm_z=5.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.7/lcdm_z=5.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.7/lcdm_z=5.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.7/lcdm_z=5.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.7/lcdm_z=5.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.7/lcdm_z=5.7_tauF.dat saved: 
+z = 5.7 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.800000028318989
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.8/lcdm_z=5.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.8/lcdm_z=5.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.8/lcdm_z=5.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.8/lcdm_z=5.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.8/lcdm_z=5.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.8/lcdm_z=5.8_tauF.dat saved: 
+z = 5.8 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.900000021569699
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.9/lcdm_z=5.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.9/lcdm_z=5.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.9/lcdm_z=5.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.9/lcdm_z=5.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.9/lcdm_z=5.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=5.9/lcdm_z=5.9_tauF.dat saved: 
+z = 5.9 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 6.000000033915877
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_tauF.dat saved: 
+z = 6.0 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 9.000000010089073
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=9.0/lcdm_z=9.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=9.0/lcdm_z=9.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=9.0/lcdm_z=9.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=9.0/lcdm_z=9.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=9.0/lcdm_z=9.0_rhotvelker.dat saved: 
+z = 9.0 for sim lcdm read (& blue)!
+sim lcdm completely read (& blue)!

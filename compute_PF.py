@@ -8,8 +8,8 @@ from scipy.optimize import minimize
 
 ########################################## INPUT
 
-root = 'NCDM_'
-sims = [1] #which sims
+root = 'lcd'
+labels = ['m'] #which sims
 F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
 z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 #F_obs_list = [0.364155, 0.253828, 0.146033, 0.0712724]
@@ -18,7 +18,7 @@ z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 BoxSize = 20.
 
 TEST = 'no' # = 'EJA' to make test on the first z-bin only
-flux_path = '/scratch/rmurgia/ML_catalogues/'
+flux_path = '/scratch/rmurgia/ML_catalogues/PBHs/'
 out_path = '/home/rmurgia/PF_ML/'
 #flux_path = '../ML_catalogues/'
 #out_path = '../ML_catalogues/'
@@ -50,20 +50,21 @@ if TEST == 'EJA':
 	zbins = [3.0]
 	print("You have only "+str(np.shape(zbins))+" redshift bin because it's a test!")
 	print('num of redshift bins = '+np.str(np.shape(zbins)))
-	print('num of sims = '+str(len(sims)))
+	print('num of sims = '+str(len(labels)))
 
 ############################### loop on sims and redshifts
 else:
 
 	zbins = z_obs_list
 	print('num of redshift bins = '+np.str(np.shape(zbins)))
-	print('num of sims = '+str(len(sims)))
+	print('num of sims = '+str(len(labels)))
 
 
-for sim_index in sims:   #loop on sims
+for sim_index in range(len(labels)):   #loop on sims
 
-	sim_folder = flux_path+root+str(sim_index)
-	out_folder = out_path+root+str(sim_index)+'/PF/'	#input/output folder
+	label = labels[sim_index]
+	sim_folder = flux_path+root+label
+	out_folder = out_path+root+label+'/PF/'	#input/output folder
 	if not os.path.exists(out_folder):
 		os.makedirs(out_folder)
 
@@ -72,7 +73,7 @@ for sim_index in sims:   #loop on sims
 		z_index = round(z_index,2)
 		z_folder = sim_folder+'/z='+str(z_index)+'/'
 		
-		tau_array, flux_array = np.loadtxt(z_folder+root+str(sim_index)+"_z="+str(z_index)+"_tauF.dat", usecols=[0,1], unpack=True, comments='#')
+		tau_array, flux_array = np.loadtxt(z_folder+root+label+"_z="+str(z_index)+"_tauF.dat", usecols=[0,1], unpack=True, comments='#')
 		mean_flux = np.mean(flux_array)
 		
 		mean_flux_obs = F_obs_list[i]
@@ -146,6 +147,6 @@ for sim_index in sims:   #loop on sims
 		#PF_final[:] = 2*np.pi*PF[1:end]/freqs_final[:]
 		PF_final[:] = PF[1:end]
 
-		np.savetxt(out_folder+"PF_"+root+str(sim_index)+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
+		np.savetxt(out_folder+"PF_"+root+label+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
 		print("**DONE WITH z="+str(z_index))
-	print("*DONE WITH model "+root+str(sim_index))
+	print("*DONE WITH model "+root+label)
