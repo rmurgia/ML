@@ -200,7 +200,7 @@ for sim_index in range(sim_num):   #loop on sims
 					elif j == 3:
 						l_step = int((nlos/steps)*nbins)
 						print(str(l_step)+" == "+str((nlos/steps)*nbins))
-						for f_index in range(0,steps):
+						#for f_index in range(0,steps):
 							#np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
 					print("> File %s saved: " %fout3)
 		   
@@ -315,7 +315,7 @@ for sim_index in range(sim_num):   #loop on sims
 					elif j == 3:
 						l_step = int((nlos/steps)*nbins)
 						print(str(l_step)+" == "+str((nlos/steps)*nbins))
-						for f_index in range(0,steps):
+						#for f_index in range(0,steps):
 								#np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
 					print("> File %s saved: " %fout3)			
 
