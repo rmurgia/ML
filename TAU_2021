@@ -1,0 +1,55 @@
+You have only (2,) redshift bins because it's a test!
+num of reshift bins = (2,)
+num of sims = 1
+I'm starting with the lcdm sim
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.20000001208979
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=2.2/lcdm_z=2.2_tauF.dat saved: 
+z = 2.2 for sim lcdm read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 6.000000033915877
+om_out = 0.308
+ol_out = 0.692
+ob_out = 0.0482
+h_out = 0.678
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/PBHs/lcdm/z=6.0/lcdm_z=6.0_tauF.dat saved: 
+z = 6.0 for sim lcdm read (& blue)!
+sim lcdm completely read (& blue)!
