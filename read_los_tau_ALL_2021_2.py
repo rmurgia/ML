@@ -30,7 +30,8 @@ if not os.path.exists(out_path):
 	os.makedirs(out_path)
 
 root = 'PBHs_'
-labels = ['1e1-5','1e2','1e2-2_NEW','1e2-3_NEW','1e2-5','1e2-7','1e3-5','1e1','1e1-5_NEW','1e2-2','1e2-3','1e2-4','1e2-6','1e3']
+#labels = ['1e1-5','1e2','1e2-2_NEW','1e2-3_NEW','1e2-5','1e2-7','1e3-5','1e1','1e1-5_NEW','1e2-2','1e2-3','1e2-4','1e2-6','1e3']
+labels = ['1e2-4','1e2-6','1e3','1e4']
 sim_num = len(labels) #how many sims
 
 steps = 5	#number of files where you want to store "ker" quantities

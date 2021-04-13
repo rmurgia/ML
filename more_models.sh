@@ -5,7 +5,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --hint=nomultithread                                                                                   
 
-#SBATCH --job-name=TAU_lcdm
+#SBATCH --job-name=TAU_moremodels
 #SBATCH --time=48:00:00
 #SBATCH --mail-user=rmurgia@sissa.it
 #SBATCH --mail-type=ALL

@@ -8,9 +8,11 @@ from scipy.optimize import minimize
 
 ########################################## INPUT
 
-root = 'PBHs_'
-#labels = ['1e1-5','1e2','1e2-2_NEW','1e2-3_NEW','1e2-5','1e2-7','1e3-5','1e1','1e1-5_NEW','1e2-2','1e2-3'] #which sims
-labels = ['1e2-4','1e2-6','1e3','1e4']
+root = 'lcd'
+labels = ['m']
+
+#root = 'PBHs_'
+#labels = ['1e1-5_NEW','1e2-2_NEW','1e2-3_NEW', '1e2', '1e2-5','1e2-7','1e3-5','1e1','1e2-4','1e2-6','1e3','1e4']
 
 F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
 z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
@@ -18,6 +20,20 @@ z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 # z_obs_list = [4.2, 4.6, 5.0, 5.4]
 
 BoxSize = 20.
+
+## to rescale wrt to mean fluxes different from the observed ones
+NONST_RESCALE = 'YES'
+print("NONST_RESCALE = "+NONST_RESCALE)
+
+FACTOR = 0.6
+
+if NONST_RESCALE == 'YES':
+    F_obs_list = np.array(F_obs_list)
+    tau_obs_list = -np.log(F_obs_list)
+    tau_obs_list_rescaled = FACTOR*tau_obs_list
+    F_obs_list = np.exp(-tau_obs_list_rescaled)
+
+print("********")
 
 TEST = 'no' # = 'EJA' to make test on the first z-bin only
 flux_path = '/scratch/rmurgia/ML_catalogues/PBHs/'
@@ -148,7 +164,17 @@ for sim_index in range(len(labels)):   #loop on sims
 		PF_final = np.zeros(len(freqs_final))
 		#PF_final[:] = 2*np.pi*PF[1:end]/freqs_final[:]
 		PF_final[:] = PF[1:end]
-
-		np.savetxt(out_folder+"PF_"+root+label+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
+		
+		if NONST_RESCALE == 'YES':
+			if label == '1e1-5_NEW':
+				label = '1e2-5'
+			elif label == '1e2-2_NEW':
+				label = '1e2-2'
+			elif label == '1e2-3_NEW':
+				label = '1e2-3'
+			np.savetxt(out_folder+"PF_"+root+label+"_F"+str(FACTOR)+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
+		
+		else:
+			np.savetxt(out_folder+"PF_"+root+label+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
 		print("**DONE WITH z="+str(z_index))
 	print("*DONE WITH model "+root+label)
