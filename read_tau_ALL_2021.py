@@ -23,20 +23,23 @@ def len_all(ilos,ylos,zlos,posaxis,velaxis,rhokerH,rhokerH1,tempkerH1,velkerH1):
 
 ########################################## INPUT
 
-sim_path = '/scratch/rmurgia/HYDRO_output_DMNU/'
+sim_path = '/scratch/rmurgia/HYDRO_output_idmb_2022/'
 
-out_path = '/scratch/rmurgia/ML_catalogues/DMNU/'
+out_path = '/scratch/rmurgia/ML_catalogues/idmb_2022/'
 if not os.path.exists(out_path):
 	os.makedirs(out_path)
 
-root = "dmnu_"
+root = ""
 #labels = ['13','14','15','22','23','24','31','32','33']
 #labels = ['1','2','3','4','5','6','7','8','9','10','11','12','16','17','18','19','20','21','25','26','27','28','29','30','34','35','36']
-labels = ["bestfit"]
+labels = ["regul_bestfit","bounded_bestfit"]
 sim_num = len(labels) #how many sims
 
 steps = 5	#number of files where you want to store "ker" quantities
 TEST = 'no' # ='EJA' to make test on 2 z-bins only
+
+tauF_FLAG = "porcodio"
+#tauF_FLAG = "onlytau"  #uncomment if you want to print in the output file only the tau's and not the corresponding fluxes
 
 ############################### loop on sims and redshifts
 
@@ -51,6 +54,7 @@ else:
 	
 	zbins = []
 	for i in np.linspace(2.1,6.0,num=40):
+	#for i in np.linspace(2.2,6.0,num=39):
 		zbins.append(i)
 	zbins.append(9.0)
 	print('num of reshift bins = '+np.str(np.shape(zbins)))
@@ -322,11 +326,15 @@ for sim_index in range(sim_num):   #loop on sims
 					print("> File %s saved: " %fout3)			
 
 			### READ (AND PLOT) TAU
-			fout = z_out_folder+root+label+'_z='+str(z_index)+'_tauF.dat'
-			#FH = "n bins = "+str(nbins)+" \n n los = "+str(nlos)+" \n "+str(h_labels[:7])+" \n "+str(results[0][:7])+" \n tau_arr, flux_arr"
-			FH = "n bins = "+str(nbins)+" \n n los = "+str(nlos)+" \n "+str(h_labels[:7])+" \n "+str(results[0][:7])+" \n tau_arr"
-			#np.savetxt(fout, np.transpose([tau_arr,flux_arr]), header = FH)
-			np.savetxt(fout, np.transpose(tau_arr), header = FH)
+			if tauF_FLAG == "onlytau":
+				fout = z_out_folder+root+label+'_z='+str(z_index)+'_tau.dat'
+				FH = "n bins = "+str(nbins)+" \n n los = "+str(nlos)+" \n "+str(h_labels[:7])+" \n "+str(results[0][:7])+" \n tau_arr"
+				np.savetxt(fout, np.transpose(tau_arr), header = FH)
+			else:
+				fout = z_out_folder+root+label+'_z='+str(z_index)+'_tauF.dat'
+				FH = "n bins = "+str(nbins)+" \n n los = "+str(nlos)+" \n "+str(h_labels[:7])+" \n "+str(results[0][:7])+" \n tau_arr, flux_arr"
+				np.savetxt(fout, np.transpose([tau_arr,flux_arr]), header = FH)
+			
 			print("> File %s saved: " %fout)
 
 		print("z = "+str(z_index)+" for sim "+root+label+" read (& blue)!")

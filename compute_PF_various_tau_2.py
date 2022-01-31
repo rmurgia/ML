@@ -8,11 +8,12 @@ from scipy.optimize import minimize
 
 ########################################## INPUT
 
-root = 'lcd'
-labels = ['m']
+#root = 'lcd'
+#labels = ['m']
 
-#root = 'PBHs_'
+root = 'PBHs_'
 #labels = ['1e1-5_NEW','1e2-2_NEW','1e2-3_NEW', '1e2', '1e2-5','1e2-7','1e3-5','1e1','1e2-4','1e2-6','1e3','1e4']
+labels = ['1e3']
 
 F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
 z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
@@ -25,7 +26,8 @@ BoxSize = 20.
 NONST_RESCALE = 'YES'
 print("NONST_RESCALE = "+NONST_RESCALE)
 
-FACTORS = [0.7,0.8,0.9,1.1,1.2,1.3,1.4]
+#FACTORS = [0.6,0.7,0.8,0.9,1.1,1.2,1.3,1.4]
+FACTORS = [1.4]
 
 for FACTOR in FACTORS:
 
@@ -169,13 +171,18 @@ for FACTOR in FACTORS:
 			
 			if NONST_RESCALE == 'YES':
 				if label == '1e1-5_NEW':
-					label = '1e2-5'
+					label = '1e1-5'
 				elif label == '1e2-2_NEW':
 					label = '1e2-2'
 				elif label == '1e2-3_NEW':
 					label = '1e2-3'
 				np.savetxt(out_folder+"PF_"+root+label+"_F"+str(FACTOR)+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
-			
+				if label == '1e1-5':
+					label = '1e1-5_NEW'
+				elif label == '1e2-2':
+					label = '1e2-2_NEW'
+				elif label == '1e2-3':
+					label = '1e2-3_NEW'
 			else:
 				np.savetxt(out_folder+"PF_"+root+label+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
 			print("**DONE WITH z="+str(z_index))

@@ -6,8 +6,8 @@
 #SBATCH --hint=nomultithread                                                                                   
 
 #SBATCH --job-name=PF
-#SBATCH --time=00:30:00
+#SBATCH --time=01:00:00
 #SBATCH --mail-user=rmurgia@sissa.it
 #SBATCH --mail-type=ALL
 
-python /home/rmurgia/ML/compute_PF_various_tau.py >> PF_output_pbh
+python /home/rmurgia/ML/compute_PF_2021.py >> PF_output

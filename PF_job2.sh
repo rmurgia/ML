@@ -1,15 +1,13 @@
 #! /bin/bash
 
-#SBATCH --partition=long1
+#SBATCH --partition=regular2
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --hint=nomultithread                                                                                   
 
-#SBATCH --job-name=TAU_moremodels
-#SBATCH --time=24:00:00
+#SBATCH --job-name=PF
+#SBATCH --time=02:00:00
 #SBATCH --mail-user=rmurgia@sissa.it
 #SBATCH --mail-type=ALL
-#SBATCH --mem=0
 
-python /home/rmurgia/ML/read_tau_ALL_2021.py > TAU_idmb
-
+python /home/rmurgia/ML/compute_PF_various_tau_2.py >> PF_output_pbh_3

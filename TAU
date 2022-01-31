@@ -1,0 +1,1021 @@
+num of reshift bins = (41,)
+num of sims = 1
+I'm starting with the dmnu_bestfit_Tcold sim
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.1000000053660273
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.1/dmnu_bestfit_Tcold_z=2.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.1/dmnu_bestfit_Tcold_z=2.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.1/dmnu_bestfit_Tcold_z=2.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.1/dmnu_bestfit_Tcold_z=2.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.1/dmnu_bestfit_Tcold_z=2.1_rhotvelker.dat saved: 
+z = 2.1 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.200000011628004
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.2/dmnu_bestfit_Tcold_z=2.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.2/dmnu_bestfit_Tcold_z=2.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.2/dmnu_bestfit_Tcold_z=2.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.2/dmnu_bestfit_Tcold_z=2.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.2/dmnu_bestfit_Tcold_z=2.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.2/dmnu_bestfit_Tcold_z=2.2_tauF.dat saved: 
+z = 2.2 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.3000000070286495
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.3/dmnu_bestfit_Tcold_z=2.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.3/dmnu_bestfit_Tcold_z=2.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.3/dmnu_bestfit_Tcold_z=2.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.3/dmnu_bestfit_Tcold_z=2.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.3/dmnu_bestfit_Tcold_z=2.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.3/dmnu_bestfit_Tcold_z=2.3_tauF.dat saved: 
+z = 2.3 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.4000000179143735
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.4/dmnu_bestfit_Tcold_z=2.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.4/dmnu_bestfit_Tcold_z=2.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.4/dmnu_bestfit_Tcold_z=2.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.4/dmnu_bestfit_Tcold_z=2.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.4/dmnu_bestfit_Tcold_z=2.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.4/dmnu_bestfit_Tcold_z=2.4_tauF.dat saved: 
+z = 2.4 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.500000005045338
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.5/dmnu_bestfit_Tcold_z=2.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.5/dmnu_bestfit_Tcold_z=2.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.5/dmnu_bestfit_Tcold_z=2.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.5/dmnu_bestfit_Tcold_z=2.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.5/dmnu_bestfit_Tcold_z=2.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.5/dmnu_bestfit_Tcold_z=2.5_tauF.dat saved: 
+z = 2.5 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.600000004746885
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.6/dmnu_bestfit_Tcold_z=2.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.6/dmnu_bestfit_Tcold_z=2.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.6/dmnu_bestfit_Tcold_z=2.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.6/dmnu_bestfit_Tcold_z=2.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.6/dmnu_bestfit_Tcold_z=2.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.6/dmnu_bestfit_Tcold_z=2.6_tauF.dat saved: 
+z = 2.6 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.700000005274357
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.7/dmnu_bestfit_Tcold_z=2.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.7/dmnu_bestfit_Tcold_z=2.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.7/dmnu_bestfit_Tcold_z=2.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.7/dmnu_bestfit_Tcold_z=2.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.7/dmnu_bestfit_Tcold_z=2.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.7/dmnu_bestfit_Tcold_z=2.7_tauF.dat saved: 
+z = 2.7 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.800000001884077
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.8/dmnu_bestfit_Tcold_z=2.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.8/dmnu_bestfit_Tcold_z=2.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.8/dmnu_bestfit_Tcold_z=2.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.8/dmnu_bestfit_Tcold_z=2.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.8/dmnu_bestfit_Tcold_z=2.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.8/dmnu_bestfit_Tcold_z=2.8_tauF.dat saved: 
+z = 2.8 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 2.9000000237385155
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.9/dmnu_bestfit_Tcold_z=2.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.9/dmnu_bestfit_Tcold_z=2.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.9/dmnu_bestfit_Tcold_z=2.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.9/dmnu_bestfit_Tcold_z=2.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.9/dmnu_bestfit_Tcold_z=2.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=2.9/dmnu_bestfit_Tcold_z=2.9_tauF.dat saved: 
+z = 2.9 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.0000000136695055
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.0/dmnu_bestfit_Tcold_z=3.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.0/dmnu_bestfit_Tcold_z=3.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.0/dmnu_bestfit_Tcold_z=3.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.0/dmnu_bestfit_Tcold_z=3.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.0/dmnu_bestfit_Tcold_z=3.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.0/dmnu_bestfit_Tcold_z=3.0_tauF.dat saved: 
+z = 3.0 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.1000000145178737
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.1/dmnu_bestfit_Tcold_z=3.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.1/dmnu_bestfit_Tcold_z=3.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.1/dmnu_bestfit_Tcold_z=3.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.1/dmnu_bestfit_Tcold_z=3.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.1/dmnu_bestfit_Tcold_z=3.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.1/dmnu_bestfit_Tcold_z=3.1_tauF.dat saved: 
+z = 3.1 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.200000007392437
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.2/dmnu_bestfit_Tcold_z=3.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.2/dmnu_bestfit_Tcold_z=3.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.2/dmnu_bestfit_Tcold_z=3.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.2/dmnu_bestfit_Tcold_z=3.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.2/dmnu_bestfit_Tcold_z=3.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.2/dmnu_bestfit_Tcold_z=3.2_tauF.dat saved: 
+z = 3.2 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.3000000202974924
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.3/dmnu_bestfit_Tcold_z=3.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.3/dmnu_bestfit_Tcold_z=3.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.3/dmnu_bestfit_Tcold_z=3.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.3/dmnu_bestfit_Tcold_z=3.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.3/dmnu_bestfit_Tcold_z=3.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.3/dmnu_bestfit_Tcold_z=3.3_tauF.dat saved: 
+z = 3.3 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.4000000200079867
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.4/dmnu_bestfit_Tcold_z=3.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.4/dmnu_bestfit_Tcold_z=3.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.4/dmnu_bestfit_Tcold_z=3.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.4/dmnu_bestfit_Tcold_z=3.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.4/dmnu_bestfit_Tcold_z=3.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.4/dmnu_bestfit_Tcold_z=3.4_tauF.dat saved: 
+z = 3.4 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.5000000049599196
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.5/dmnu_bestfit_Tcold_z=3.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.5/dmnu_bestfit_Tcold_z=3.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.5/dmnu_bestfit_Tcold_z=3.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.5/dmnu_bestfit_Tcold_z=3.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.5/dmnu_bestfit_Tcold_z=3.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.5/dmnu_bestfit_Tcold_z=3.5_tauF.dat saved: 
+z = 3.5 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.6000000190465604
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.6/dmnu_bestfit_Tcold_z=3.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.6/dmnu_bestfit_Tcold_z=3.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.6/dmnu_bestfit_Tcold_z=3.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.6/dmnu_bestfit_Tcold_z=3.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.6/dmnu_bestfit_Tcold_z=3.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.6/dmnu_bestfit_Tcold_z=3.6_tauF.dat saved: 
+z = 3.6 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.700000029972996
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.7/dmnu_bestfit_Tcold_z=3.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.7/dmnu_bestfit_Tcold_z=3.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.7/dmnu_bestfit_Tcold_z=3.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.7/dmnu_bestfit_Tcold_z=3.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.7/dmnu_bestfit_Tcold_z=3.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.7/dmnu_bestfit_Tcold_z=3.7_tauF.dat saved: 
+z = 3.7 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.800000017932584
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.8/dmnu_bestfit_Tcold_z=3.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.8/dmnu_bestfit_Tcold_z=3.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.8/dmnu_bestfit_Tcold_z=3.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.8/dmnu_bestfit_Tcold_z=3.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.8/dmnu_bestfit_Tcold_z=3.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.8/dmnu_bestfit_Tcold_z=3.8_tauF.dat saved: 
+z = 3.8 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 3.900000010787979
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.9/dmnu_bestfit_Tcold_z=3.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.9/dmnu_bestfit_Tcold_z=3.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.9/dmnu_bestfit_Tcold_z=3.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.9/dmnu_bestfit_Tcold_z=3.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.9/dmnu_bestfit_Tcold_z=3.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=3.9/dmnu_bestfit_Tcold_z=3.9_tauF.dat saved: 
+z = 3.9 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.000000016005007
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.0/dmnu_bestfit_Tcold_z=4.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.0/dmnu_bestfit_Tcold_z=4.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.0/dmnu_bestfit_Tcold_z=4.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.0/dmnu_bestfit_Tcold_z=4.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.0/dmnu_bestfit_Tcold_z=4.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.0/dmnu_bestfit_Tcold_z=4.0_tauF.dat saved: 
+z = 4.0 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.100000027392799
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.1/dmnu_bestfit_Tcold_z=4.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.1/dmnu_bestfit_Tcold_z=4.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.1/dmnu_bestfit_Tcold_z=4.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.1/dmnu_bestfit_Tcold_z=4.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.1/dmnu_bestfit_Tcold_z=4.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.1/dmnu_bestfit_Tcold_z=4.1_tauF.dat saved: 
+z = 4.1 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.200000010258048
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.2/dmnu_bestfit_Tcold_z=4.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.2/dmnu_bestfit_Tcold_z=4.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.2/dmnu_bestfit_Tcold_z=4.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.2/dmnu_bestfit_Tcold_z=4.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.2/dmnu_bestfit_Tcold_z=4.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.2/dmnu_bestfit_Tcold_z=4.2_tauF.dat saved: 
+z = 4.2 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.300000029733178
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.3/dmnu_bestfit_Tcold_z=4.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.3/dmnu_bestfit_Tcold_z=4.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.3/dmnu_bestfit_Tcold_z=4.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.3/dmnu_bestfit_Tcold_z=4.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.3/dmnu_bestfit_Tcold_z=4.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.3/dmnu_bestfit_Tcold_z=4.3_tauF.dat saved: 
+z = 4.3 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.40000000767223
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.4/dmnu_bestfit_Tcold_z=4.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.4/dmnu_bestfit_Tcold_z=4.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.4/dmnu_bestfit_Tcold_z=4.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.4/dmnu_bestfit_Tcold_z=4.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.4/dmnu_bestfit_Tcold_z=4.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.4/dmnu_bestfit_Tcold_z=4.4_tauF.dat saved: 
+z = 4.4 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.500000023819921
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.5/dmnu_bestfit_Tcold_z=4.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.5/dmnu_bestfit_Tcold_z=4.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.5/dmnu_bestfit_Tcold_z=4.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.5/dmnu_bestfit_Tcold_z=4.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.5/dmnu_bestfit_Tcold_z=4.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.5/dmnu_bestfit_Tcold_z=4.5_tauF.dat saved: 
+z = 4.5 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.600000023393887
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.6/dmnu_bestfit_Tcold_z=4.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.6/dmnu_bestfit_Tcold_z=4.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.6/dmnu_bestfit_Tcold_z=4.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.6/dmnu_bestfit_Tcold_z=4.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.6/dmnu_bestfit_Tcold_z=4.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.6/dmnu_bestfit_Tcold_z=4.6_tauF.dat saved: 
+z = 4.6 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.700000003408681
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.7/dmnu_bestfit_Tcold_z=4.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.7/dmnu_bestfit_Tcold_z=4.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.7/dmnu_bestfit_Tcold_z=4.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.7/dmnu_bestfit_Tcold_z=4.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.7/dmnu_bestfit_Tcold_z=4.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.7/dmnu_bestfit_Tcold_z=4.7_tauF.dat saved: 
+z = 4.7 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.800000017869491
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.8/dmnu_bestfit_Tcold_z=4.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.8/dmnu_bestfit_Tcold_z=4.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.8/dmnu_bestfit_Tcold_z=4.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.8/dmnu_bestfit_Tcold_z=4.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.8/dmnu_bestfit_Tcold_z=4.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.8/dmnu_bestfit_Tcold_z=4.8_tauF.dat saved: 
+z = 4.8 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 4.900000013351324
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.9/dmnu_bestfit_Tcold_z=4.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.9/dmnu_bestfit_Tcold_z=4.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.9/dmnu_bestfit_Tcold_z=4.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.9/dmnu_bestfit_Tcold_z=4.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.9/dmnu_bestfit_Tcold_z=4.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=4.9/dmnu_bestfit_Tcold_z=4.9_tauF.dat saved: 
+z = 4.9 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.00000002111748
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.0/dmnu_bestfit_Tcold_z=5.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.0/dmnu_bestfit_Tcold_z=5.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.0/dmnu_bestfit_Tcold_z=5.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.0/dmnu_bestfit_Tcold_z=5.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.0/dmnu_bestfit_Tcold_z=5.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.0/dmnu_bestfit_Tcold_z=5.0_tauF.dat saved: 
+z = 5.0 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.100000030103225
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.1/dmnu_bestfit_Tcold_z=5.1_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.1/dmnu_bestfit_Tcold_z=5.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.1/dmnu_bestfit_Tcold_z=5.1_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.1/dmnu_bestfit_Tcold_z=5.1_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.1/dmnu_bestfit_Tcold_z=5.1_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.1/dmnu_bestfit_Tcold_z=5.1_tauF.dat saved: 
+z = 5.1 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.2000000263534485
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.2/dmnu_bestfit_Tcold_z=5.2_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.2/dmnu_bestfit_Tcold_z=5.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.2/dmnu_bestfit_Tcold_z=5.2_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.2/dmnu_bestfit_Tcold_z=5.2_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.2/dmnu_bestfit_Tcold_z=5.2_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.2/dmnu_bestfit_Tcold_z=5.2_tauF.dat saved: 
+z = 5.2 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.300000011732539
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.3/dmnu_bestfit_Tcold_z=5.3_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.3/dmnu_bestfit_Tcold_z=5.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.3/dmnu_bestfit_Tcold_z=5.3_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.3/dmnu_bestfit_Tcold_z=5.3_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.3/dmnu_bestfit_Tcold_z=5.3_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.3/dmnu_bestfit_Tcold_z=5.3_tauF.dat saved: 
+z = 5.3 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.400000039381319
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.4/dmnu_bestfit_Tcold_z=5.4_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.4/dmnu_bestfit_Tcold_z=5.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.4/dmnu_bestfit_Tcold_z=5.4_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.4/dmnu_bestfit_Tcold_z=5.4_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.4/dmnu_bestfit_Tcold_z=5.4_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.4/dmnu_bestfit_Tcold_z=5.4_tauF.dat saved: 
+z = 5.4 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.500000011416122
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.5/dmnu_bestfit_Tcold_z=5.5_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.5/dmnu_bestfit_Tcold_z=5.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.5/dmnu_bestfit_Tcold_z=5.5_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.5/dmnu_bestfit_Tcold_z=5.5_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.5/dmnu_bestfit_Tcold_z=5.5_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.5/dmnu_bestfit_Tcold_z=5.5_tauF.dat saved: 
+z = 5.5 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.600000030686525
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.6/dmnu_bestfit_Tcold_z=5.6_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.6/dmnu_bestfit_Tcold_z=5.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.6/dmnu_bestfit_Tcold_z=5.6_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.6/dmnu_bestfit_Tcold_z=5.6_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.6/dmnu_bestfit_Tcold_z=5.6_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.6/dmnu_bestfit_Tcold_z=5.6_tauF.dat saved: 
+z = 5.6 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.700000009624739
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.7/dmnu_bestfit_Tcold_z=5.7_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.7/dmnu_bestfit_Tcold_z=5.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.7/dmnu_bestfit_Tcold_z=5.7_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.7/dmnu_bestfit_Tcold_z=5.7_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.7/dmnu_bestfit_Tcold_z=5.7_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.7/dmnu_bestfit_Tcold_z=5.7_tauF.dat saved: 
+z = 5.7 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.800000008547871
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.8/dmnu_bestfit_Tcold_z=5.8_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.8/dmnu_bestfit_Tcold_z=5.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.8/dmnu_bestfit_Tcold_z=5.8_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.8/dmnu_bestfit_Tcold_z=5.8_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.8/dmnu_bestfit_Tcold_z=5.8_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.8/dmnu_bestfit_Tcold_z=5.8_tauF.dat saved: 
+z = 5.8 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 5.90000002927505
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.9/dmnu_bestfit_Tcold_z=5.9_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.9/dmnu_bestfit_Tcold_z=5.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.9/dmnu_bestfit_Tcold_z=5.9_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.9/dmnu_bestfit_Tcold_z=5.9_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.9/dmnu_bestfit_Tcold_z=5.9_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=5.9/dmnu_bestfit_Tcold_z=5.9_tauF.dat saved: 
+z = 5.9 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 6.000000027727733
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+tau has been read (& blue):
+TAU file elements = 10240000
+(10240000,)
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=6.0/dmnu_bestfit_Tcold_z=6.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=6.0/dmnu_bestfit_Tcold_z=6.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=6.0/dmnu_bestfit_Tcold_z=6.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=6.0/dmnu_bestfit_Tcold_z=6.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=6.0/dmnu_bestfit_Tcold_z=6.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=6.0/dmnu_bestfit_Tcold_z=6.0_tauF.dat saved: 
+z = 6.0 for sim dmnu_bestfit_Tcold read (& blue)!
+los has been read (& blue):
+LOS file elements = 40984105
+(1, 40984105)
+Header Read (& Blue)
+n bins = 2048
+n los = 5000
+ztime = 9.000000057205812
+om_out = 0.311
+ol_out = 0.689
+ob_out = 0.0517
+h_out = 0.677
+box_out = 20000.0
+xh_out = 0.76
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=9.0/dmnu_bestfit_Tcold_z=9.0_xyzlos.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=9.0/dmnu_bestfit_Tcold_z=9.0_rhotvelker.dat saved: 
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=9.0/dmnu_bestfit_Tcold_z=9.0_pvaxis.dat saved: 
+steps = 5
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=9.0/dmnu_bestfit_Tcold_z=9.0_rhotvelker.dat saved: 
+2048000 == 2048000.0
+> File /scratch/rmurgia/ML_catalogues/DMNU/dmnu_bestfit_Tcold/z=9.0/dmnu_bestfit_Tcold_z=9.0_rhotvelker.dat saved: 
+z = 9.0 for sim dmnu_bestfit_Tcold read (& blue)!
+sim dmnu_bestfit_Tcold completely read (& blue)!

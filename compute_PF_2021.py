@@ -10,18 +10,21 @@ from scipy.optimize import minimize
 
 #root = 'PBHs_'
 root = "dmnu_"
-labels = ["bestfit"]
+labels = ["bestfit_Tcold"]
 #labels = ['1e1-5','1e2','1e2-2_NEW','1e2-3_NEW','1e2-5','1e2-7','1e3-5','1e1','1e1-5_NEW','1e2-2','1e2-3'] #which sims
 #labels = ['1e2-4','1e2-6','1e3','1e4']
 
 #F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
 #z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 #F_obs_list = [0.364155, 0.253828, 0.146033, 0.0712724]
-z_obs_list = [4.2, 4.6, 5.0, 5.4]
-F_obs_list = [0.3998125,0.2748366,0.1640340,0.06515656]  #these are the best-fit values from 2110.04024 
+#z_obs_list = [4.2, 4.6, 5.0, 5.4]
+#F_obs_list = [0.3998125,0.2748366,0.1640340,0.06515656]  #these are the best-fit values from 2110.04024 
+z_obs_list = [5.4]
+F_obs_list = [0.06515656]
 
 BoxSize = 20.
 
+normalization = 'YES'
 TEST = 'no' # = 'EJA' to make test on the first z-bin only
 flux_path = '/scratch/rmurgia/ML_catalogues/DMNU/'
 out_path = '/home/rmurgia/PF_ML/'
@@ -87,32 +90,39 @@ for sim_index in range(len(labels)):   #loop on sims
 		
 		mean_flux = np.mean(flux_array)
 		
-		mean_flux_obs = F_obs_list[i]
+		if normalization == 'YES':
+			mean_flux_obs = F_obs_list[i]
 
-		print("<F> ="+str(mean_flux))
-		print("observed <F> ="+str(mean_flux_obs))
+			print("<F> ="+str(mean_flux))
+			print("observed <F> ="+str(mean_flux_obs))
 
-		if mean_flux < mean_flux_obs:
-			A_list = np.linspace(0.01,1., num=100)
+		if normalization == 'YES' and mean_flux < mean_flux_obs:
+			A_list = np.linspace(0.0001,1., num=1000)
 			print("A < 1")
 		
-		elif mean_flux > mean_flux_obs:
+		elif normalization == 'YES' and mean_flux > mean_flux_obs:
 			A_list = np.linspace(1.,10.0, num=100)
 			print("A > 1")
+	
+		elif normalization == 'NO':
+			best_A = 1.
+			print("Normalization NOT required!! I set A = 1")	
 		
-		y = []
-		for i,A in zip(range(len(A_list)),A_list):
-			y.append(func_A(A, tau_array, mean_flux_obs, mean_flux))
+		if normalization == 'YES':
+
+			y = []
+			for i,A in zip(range(len(A_list)),A_list):
+				y.append(func_A(A, tau_array, mean_flux_obs, mean_flux))
 		
-		print("minimum difference before optimization is "+str(min(y)))
+			print("minimum difference before optimization is "+str(min(y)))
 		
-		res = minimize(func_A, min(y), args=(tau_array, mean_flux_obs, mean_flux), tol=1e-5)
-		best_A = res.x[0]
-		print("Start with optimization...")
-		print(res)
-		print("..Optimization done!")
+			res = minimize(func_A, min(y), args=(tau_array, mean_flux_obs, mean_flux), tol=1e-5)
+			best_A = res.x[0]
+			print("Start with optimization...")
+			print(res)
+			print("..Optimization done!")
 		
-		print("norm. factor A ="+str(best_A))
+			print("norm. factor A ="+str(best_A))
 
 		flux_array_new = np.zeros(len(flux_array))
 		delta_array = np.zeros(len(flux_array))
@@ -158,6 +168,10 @@ for sim_index in range(len(labels)):   #loop on sims
 		#PF_final[:] = 2*np.pi*PF[1:end]/freqs_final[:]
 		PF_final[:] = PF[1:end]
 
-		np.savetxt(out_folder+"PF_"+root+label+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
+		if normalization == 'NO':
+			np.savetxt(out_folder+"PF_"+root+label+"_z"+str(z_index)+"_NOTNORM.dat",np.transpose([freqs_final,PF_final]))
+		elif normalization == 'YES':
+			np.savetxt(out_folder+"PF_"+root+label+"_z"+str(z_index)+".dat",np.transpose([freqs_final,PF_final]))
+	
 		print("**DONE WITH z="+str(z_index))
 	print("*DONE WITH model "+root+label)
