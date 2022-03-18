@@ -11,9 +11,11 @@ from scipy.optimize import minimize
 #root = 'lcd'
 #labels = ['m']
 
-root = 'PBHs_'
+#root = 'PBHs_'
 #labels = ['1e1-5_NEW','1e2-2_NEW','1e2-3_NEW', '1e2', '1e2-5','1e2-7','1e3-5','1e1','1e2-4','1e2-6','1e3','1e4']
-labels = ['1e3']
+#labels = ['1e3']
+root = "LCDM_neff="
+labels = ['-2.302','-2.453','-2.583']
 
 F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
 z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
@@ -27,7 +29,8 @@ NONST_RESCALE = 'YES'
 print("NONST_RESCALE = "+NONST_RESCALE)
 
 #FACTORS = [0.6,0.7,0.8,0.9,1.1,1.2,1.3,1.4]
-FACTORS = [1.4]
+FACTORS = [0.6, 0.8, 1.2, 1.4]
+#FACTORS = [1.4]
 
 for FACTOR in FACTORS:
 
@@ -40,8 +43,8 @@ for FACTOR in FACTORS:
 	print("********")
 	
 	TEST = 'no' # = 'EJA' to make test on the first z-bin only
-	flux_path = '/scratch/rmurgia/ML_catalogues/PBHs/'
-	out_path = '/home/rmurgia/PF_ML/'
+	flux_path = '/scratch/rmurgia/ML_catalogues/DMNU/variousNEFF/'
+	out_path = '/home/rmurgia/PF_ML/variousNEFF/'
 	#flux_path = '../ML_catalogues/'
 	#out_path = '../ML_catalogues/'
 	if not os.path.exists(out_path):

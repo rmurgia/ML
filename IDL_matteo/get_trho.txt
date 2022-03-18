@@ -1,0 +1,117 @@
+;--------------------------------------------------------------------
+
+;; Reports T0 and gamma
+
+;--------------------------------------------------------------------
+
+pro get_trho
+
+;; alog10(Delta) values for measuring T-rho relation
+den0     =  0.0d
+den1     = -1.00d
+den2     = 1.00d
+
+base      = './TNG100_1/'
+filename1 = base+'spec2048_n15884_z0.100.dat'
+filename2 = base+'tau2048_n15884_z0.100.dat'
+
+@read_sherwood
+
+
+;; Get the T-rho relation via modes at two densities
+trho_fit = dblarr(2)
+density  = alog10(density)
+
+;; Get the T-rho relation via modes 
+ind0        = where(density gt den0-0.01d and density le den0+0.01d)
+trho_fit[0] = mode(alog10(temp_H1(ind0)),0.01d)
+
+;; Measure from Delta =0.1
+ind1        = where(density gt den1-0.01d and density le den1+0.01d)
+T1          = mode(alog10(temp_H1(ind1)),0.01d)
+trho_fit[1] = (trho_fit[0] -  T1)/(den0 - den1)
+
+;; Measure from Delta=10
+;ind2        = where(density gt den2-0.01d and density le den2+0.01d)
+;T2          = mode(alog10(temp_H1(ind2)),0.01d)
+;trho_fit[1] = (trho_fit[0] -  T2)/(den0 - den2) 
+
+print,'T0',10.0^trho_fit[0]    
+;;print,'T1',(10.0^trho_fit[0])*10.0^trho_fit[1]  
+print,'gamma',1.0+trho_fit[1]  
+print,'<F>',mean(exp(-tau_H1[*]))
+print
+print,'T0',float(round(10.0^trho_fit[0]))
+;;print,'T1',float(round((10.0^trho_fit[0])*10.0^trho_fit[1]))
+print,'gamma-1',-1.0 + float(round((1.0+trho_fit[1])*100.0d))/100.0d
+print,'<F>',float(round(mean(exp(-tau_H1[*]))*1000.0d)/1000.0d)
+
+
+
+
+;; Dave et al. (2010).
+f_omega = omega0 * (1.0+ztime)^3.0 / (omega0 * (1.0+ztime)^3.0 + (1.0-omega0-omegaL)*(1.0+ztime)^2.0 + omegaL)
+delta_th = 6.0 * !dpi * !dpi * (1.0 + 0.4093d * (1.0d/f_omega - 1.0d)^0.9052d) - 1.0d
+
+print,'Delta_th',delta_th
+print
+print,'Gas phase fractions (volume weighted)'
+
+ind_igm       = where(10.0^density lt delta_th and alog10(temp_H1) lt 5.0)
+ind_whim      = where(10.0^density lt delta_th and alog10(temp_H1) ge 5.0)
+ind_hothalo   = where(10.0^density ge delta_th and alog10(temp_H1) ge 5.0)
+ind_condensed = where(10.0^density ge delta_th and alog10(temp_H1) lt 5.0)
+
+igm_frac = double(n_elements(ind_igm))/double(n_elements(density))
+whim_frac = double(n_elements(ind_whim))/double(n_elements(density))
+hothalo_frac = double(n_elements(ind_hothalo))/double(n_elements(density))
+condensed_frac = double(n_elements(ind_condensed))/double(n_elements(density))
+
+print,'Diffuse IGM ',100.0*igm_frac
+print,'WHIM        ',100.0*whim_frac
+print,'Hot halo    ',100.0*hothalo_frac
+print,'Condensed   ',100.0*condensed_frac
+
+
+;; Grid the x-y plan for contour plots
+
+;; log(Delta)
+binx = 0.05d
+minx = -2.5d - binx*0.5d
+maxx = 4.5d  + binx*0.5d
+
+;; log(T / K)
+biny = 0.05d
+miny = 2.0d - biny*0.5d
+maxy = 9.5d + biny*0.5d
+
+xrow  = floor((maxx - minx)/binx)+1
+yrow  = floor((maxy - miny)/biny)+1
+xcont = dblarr(xrow,yrow)
+ycont = dblarr(xrow,yrow)
+
+for j=0,yrow-1 do begin
+    for i=0,xrow-1 do begin 
+        kk = i + xrow*j  
+        xcont[i,j] = minx + i*binx + binx*0.5d
+        ycont[i,j] = miny + j*biny + biny*0.5d
+    endfor
+ endfor
+
+
+
+zcont = HIST_2D(density,alog10(temp_H1),bin1=binx,bin2=biny,max1=maxx,max2=maxy,min1=minx,min2=miny)
+
+xx_trho = dindgen(50.0)/10.0 - 3.0
+yy_trho = trho_fit[1]*xx_trho + trho_fit[0]
+
+window,0,xsize=600,ysize=600
+device,retain=2
+strx=textoidl('log \Delta')
+contour,zcont,xcont,ycont,xtitle=strx,ytitle='log(T/K)',xstyle=1,ystyle=1,charsize=1.75,xrange=[-2.5,4.5],yrange=[2.0,9.0],levels=[10.0^0.0,10.0^0.5,10.0^1,10.0^1.5,10.0^2,10.0^2.5,10.0^3,10.0^3.5,10.0^4]
+oplot,xx_trho,yy_trho,linestyle=5,thick=3,color=200
+
+
+end
+
+;--------------------------------------------------------------------
