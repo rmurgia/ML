@@ -5,9 +5,9 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --hint=nomultithread                                                                                   
 
-#SBATCH --job-name=PF
-#SBATCH --time=02:00:00
+#SBATCH --job-name=PF_taus
+#SBATCH --time=06:00:00
 #SBATCH --mail-user=rmurgia@sissa.it
 #SBATCH --mail-type=ALL
 
-python /home/rmurgia/ML/compute_PF_various_tau_2.py >> PF_output_pbh_3
+python /home/rmurgia/ML/compute_PF_various_tau_2021.py >> PF_output_taus

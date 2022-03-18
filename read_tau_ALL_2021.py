@@ -23,16 +23,16 @@ def len_all(ilos,ylos,zlos,posaxis,velaxis,rhokerH,rhokerH1,tempkerH1,velkerH1):
 
 ########################################## INPUT
 
-sim_path = '/scratch/rmurgia/HYDRO_output_idmb_2022/'
+sim_path = '/scratch/rmurgia/HYDRO_output_DMNU/variousNEFF/'
 
-out_path = '/scratch/rmurgia/ML_catalogues/idmb_2022/'
+out_path = '/scratch/rmurgia/ML_catalogues/DMNU/variousNEFF/'
 if not os.path.exists(out_path):
 	os.makedirs(out_path)
 
-root = ""
+root = "LCDM_neff="
 #labels = ['13','14','15','22','23','24','31','32','33']
 #labels = ['1','2','3','4','5','6','7','8','9','10','11','12','16','17','18','19','20','21','25','26','27','28','29','30','34','35','36']
-labels = ["regul_bestfit","bounded_bestfit"]
+labels = ["-2.302","-2.453","-2.583"]
 sim_num = len(labels) #how many sims
 
 steps = 5	#number of files where you want to store "ker" quantities
@@ -53,7 +53,8 @@ if TEST == 'EJA':
 else:
 	
 	zbins = []
-	for i in np.linspace(2.1,6.0,num=40):
+	#for i in np.linspace(2.1,6.0,num=40):
+	for i in np.linspace(3.0,5.4,num=25):
 	#for i in np.linspace(2.2,6.0,num=39):
 		zbins.append(i)
 	zbins.append(9.0)

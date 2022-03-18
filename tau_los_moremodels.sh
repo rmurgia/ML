@@ -11,5 +11,5 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mem=0
 
-python /home/rmurgia/ML/read_tau_ALL_2021.py > TAU_idmb
+python /home/rmurgia/ML/read_tau_ALL_2021.py > TAU_2022
 

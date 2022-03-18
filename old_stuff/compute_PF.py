@@ -9,21 +9,22 @@ from scipy.optimize import minimize
 ########################################## INPUT
 
 #root = 'PBHs_'
-root = "dmnu_"
-labels = ["bestfit"]
+root = "LCDM_neff="
+labels = ['-2.302','-2.453','-2.583']
+#labels = ["bestfit"]
 #labels = ['1e1-5','1e2','1e2-2_NEW','1e2-3_NEW','1e2-5','1e2-7','1e3-5','1e1','1e1-5_NEW','1e2-2','1e2-3'] #which sims
 #labels = ['1e2-4','1e2-6','1e3','1e4']
 
-#F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
-#z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
+F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
+z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 #F_obs_list = [0.364155, 0.253828, 0.146033, 0.0712724]
-z_obs_list = [4.2, 4.6, 5.0, 5.4]
-F_obs_list = [0.3998125,0.2748366,0.1640340,0.06515656]  #these are the best-fit values from 2110.04024 
+#z_obs_list = [4.2, 4.6, 5.0, 5.4]
+#F_obs_list = [0.3998125,0.2748366,0.1640340,0.06515656]  #these are the best-fit values from 2110.04024 
 
 BoxSize = 20.
 
 TEST = 'no' # = 'EJA' to make test on the first z-bin only
-flux_path = '/scratch/rmurgia/ML_catalogues/DMNU/'
+flux_path = '/scratch/rmurgia/ML_catalogues/DMNU/variousNEFF/'
 out_path = '/home/rmurgia/PF_ML/'
 #flux_path = '../ML_catalogues/'
 #out_path = '../ML_catalogues/'
