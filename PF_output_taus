@@ -1,0 +1,2545 @@
+NONST_RESCALE = YES
+********
+num of redshift bins = (10,)
+num of sims = 3
+<F> =0.6469940800990496
+observed <F> =0.7858255785428281
+A < 1
+minimum difference before optimization is 0.0004881551437136977
+Start with optimization...
+      fun: 1.2619520983747634e-09
+ hess_inv: array([[0.01926841]])
+      jac: array([0.16231424])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.36852732])
+..Optimization done!
+norm. factor A =0.368527324739501
+<F>_NEW =0.7858255797472949
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.588553351149439
+observed <F> =0.7484948828778097
+A < 1
+minimum difference before optimization is 0.0017095993460912728
+Start with optimization...
+      fun: 2.4030250012074816e-09
+ hess_inv: array([[0.01333414]])
+      jac: array([0.0645882])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 66
+      nit: 2
+     njev: 27
+   status: 2
+  success: False
+        x: array([0.35557561])
+..Optimization done!
+norm. factor A =0.355575605281599
+<F>_NEW =0.748494885165252
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.5259297887545541
+observed <F> =0.7096595679878841
+A < 1
+minimum difference before optimization is 0.0008020540745372617
+Start with optimization...
+      fun: 2.245561625535686e-09
+ hess_inv: array([[0.03770045]])
+      jac: array([0.14652307])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 66
+      nit: 2
+     njev: 27
+   status: 2
+  success: False
+        x: array([0.33820811])
+..Optimization done!
+norm. factor A =0.3382081094862264
+<F>_NEW =0.7096595701381756
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.4590739922606209
+observed <F> =0.6696123268101059
+A < 1
+minimum difference before optimization is 0.0019283313970992477
+Start with optimization...
+      fun: 2.045195124367183e-09
+ hess_inv: array([[0.09864789]])
+      jac: array([0.23885021])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 2
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.3162386])
+..Optimization done!
+norm. factor A =0.3162386028598615
+<F>_NEW =0.6696123288076617
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3895706932902208
+observed <F> =0.6286734108200277
+A < 1
+minimum difference before optimization is 0.0008913926629728897
+Start with optimization...
+      fun: 1.6802611524369127e-09
+ hess_inv: array([[0.18974655]])
+      jac: array([0.35415472])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.29153699])
+..Optimization done!
+norm. factor A =0.2915369914841242
+<F>_NEW =0.6286734125246991
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.32102895344598814
+observed <F> =0.587177500631405
+A < 1
+minimum difference before optimization is 0.0018120533209041723
+Start with optimization...
+      fun: 3.951438398708262e-09
+ hess_inv: array([[0.10035657]])
+      jac: array([0.10880177])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 66
+      nit: 2
+     njev: 27
+   status: 2
+  success: False
+        x: array([0.26716282])
+..Optimization done!
+norm. factor A =0.26716281835507705
+<F>_NEW =0.5871775048751552
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.25507897548731645
+observed <F> =0.5454711258262535
+A < 1
+minimum difference before optimization is 0.002062641550888533
+Start with optimization...
+      fun: 1.9249234428642126e-09
+ hess_inv: array([[0.24912241]])
+      jac: array([0.42640701])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.24301042])
+..Optimization done!
+norm. factor A =0.2430104180722413
+<F>_NEW =0.5454711280715946
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.14531631112444232
+observed <F> =0.4392620830095775
+A < 1
+minimum difference before optimization is 0.0018374353209457128
+Start with optimization...
+      fun: 2.2192257476127963e-09
+ hess_inv: array([[0.17764258]])
+      jac: array([0.40591763])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.22738977])
+..Optimization done!
+norm. factor A =0.22738977331898458
+<F>_NEW =0.43926208595626814
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.07333392461112832
+observed <F> =0.31526125805813615
+A < 1
+minimum difference before optimization is 0.0013098815219300397
+Start with optimization...
+      fun: 1.9448626875639974e-09
+ hess_inv: array([[0.08566288]])
+      jac: array([0.39117253])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.24201034])
+..Optimization done!
+norm. factor A =0.24201033806151095
+<F>_NEW =0.3152612606940137
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.029446013730858898
+observed <F> =0.2049995133054248
+A < 1
+minimum difference before optimization is 0.0006626925287074314
+Start with optimization...
+      fun: 1.093093254800337e-09
+ hess_inv: array([[0.0024144]])
+      jac: array([0.39030209])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 2
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.24876745])
+..Optimization done!
+norm. factor A =0.24876745369843214
+<F>_NEW =0.20499951486546705
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.302
+<F> =0.6091565243247691
+observed <F> =0.7858255785428281
+A < 1
+minimum difference before optimization is 0.001083904199512764
+Start with optimization...
+      fun: 2.8495753534585333e-09
+ hess_inv: array([[0.05462491]])
+      jac: array([-1.34110451e-07])
+  message: 'Optimization terminated successfully.'
+     nfev: 52
+      nit: 3
+     njev: 26
+   status: 0
+  success: True
+        x: array([0.31716263])
+..Optimization done!
+norm. factor A =0.3171626339504582
+<F>_NEW =0.7858255814315357
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5430854344345509
+observed <F> =0.7484948828778097
+A < 1
+minimum difference before optimization is 0.0016657781166680152
+Start with optimization...
+      fun: 3.3187784742594317e-09
+ hess_inv: array([[0.05797445]])
+      jac: array([4.47034836e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 52
+      nit: 3
+     njev: 26
+   status: 0
+  success: True
+        x: array([0.30373431])
+..Optimization done!
+norm. factor A =0.3037343149055621
+<F>_NEW =0.7484948863014473
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.47198215563507256
+observed <F> =0.7096595679878841
+A < 1
+minimum difference before optimization is 0.002461718272278479
+Start with optimization...
+      fun: 3.817523741567186e-09
+ hess_inv: array([[0.04472995]])
+      jac: array([2.23517418e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 60
+      nit: 3
+     njev: 30
+   status: 0
+  success: True
+        x: array([0.28518787])
+..Optimization done!
+norm. factor A =0.28518786801654766
+<F>_NEW =0.7096595720612769
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.39586448083913844
+observed <F> =0.6696123268101059
+A < 1
+minimum difference before optimization is 0.0008817219291683553
+Start with optimization...
+      fun: 4.323164715103189e-09
+ hess_inv: array([[0.05419434]])
+      jac: array([1.2665987e-07])
+  message: 'Optimization terminated successfully.'
+     nfev: 56
+      nit: 3
+     njev: 28
+   status: 0
+  success: True
+        x: array([0.26151891])
+..Optimization done!
+norm. factor A =0.2615189078235614
+<F>_NEW =0.6696123317067905
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3214537189941278
+observed <F> =0.6286734108200277
+A < 1
+minimum difference before optimization is 0.0007454060029847831
+Start with optimization...
+      fun: 3.5867870895600618e-09
+ hess_inv: array([[1.17037444e-08]])
+      jac: array([0.15518757])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 3
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.23882878])
+..Optimization done!
+norm. factor A =0.23882878035524235
+<F>_NEW =0.6286734152300149
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.24970881064333006
+observed <F> =0.587177500631405
+A < 1
+minimum difference before optimization is 0.003014416562541089
+Start with optimization...
+      fun: 6.023055942883104e-10
+ hess_inv: array([[0.82917167]])
+      jac: array([0.59362852])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.21552818])
+..Optimization done!
+norm. factor A =0.21552817766953491
+<F>_NEW =0.5871775014630191
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.18415017868624764
+observed <F> =0.5454711258262535
+A < 1
+minimum difference before optimization is 0.0018905618287128334
+Start with optimization...
+      fun: 4.1664627303816815e-09
+ hess_inv: array([[1.08998957e-08]])
+      jac: array([0.12433295])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 3
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.19276567])
+..Optimization done!
+norm. factor A =0.19276567237256023
+<F>_NEW =0.5454711325581727
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.08709250738242114
+observed <F> =0.4392620830095775
+A < 1
+minimum difference before optimization is 0.0022298521062533994
+Start with optimization...
+      fun: 3.52289852845189e-09
+ hess_inv: array([[1.22884685e-08]])
+      jac: array([0.13347125])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 3
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.17368292])
+..Optimization done!
+norm. factor A =0.17368291903208286
+<F>_NEW =0.43926209081446743
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.03506963900728507
+observed <F> =0.31526125805813615
+A < 1
+minimum difference before optimization is 0.0010280113717371364
+Start with optimization...
+      fun: 1.4074860166246594e-09
+ hess_inv: array([[0.00044147]])
+      jac: array([0.27538333])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 70
+      nit: 2
+     njev: 29
+   status: 2
+  success: False
+        x: array([0.1777905])
+..Optimization done!
+norm. factor A =0.17779050464872878
+<F>_NEW =0.315261262047044
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.010445450548892288
+observed <F> =0.2049995133054248
+A < 1
+minimum difference before optimization is 0.0009263050534288261
+Start with optimization...
+      fun: 2.167366806860027e-09
+ hess_inv: array([[0.1984509]])
+      jac: array([-7.4505806e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 54
+      nit: 3
+     njev: 27
+   status: 0
+  success: True
+        x: array([0.17683269])
+..Optimization done!
+norm. factor A =0.17683268552633197
+<F>_NEW =0.20499952202531305
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.453
+<F> =0.5739132423935531
+observed <F> =0.7858255785428281
+A < 1
+minimum difference before optimization is 0.000977050960615844
+Start with optimization...
+      fun: 7.110042554714369e-10
+ hess_inv: array([[0.4366968]])
+      jac: array([0.32710292])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 84
+      nit: 2
+     njev: 36
+   status: 2
+  success: False
+        x: array([0.28768576])
+..Optimization done!
+norm. factor A =0.28768575761773607
+<F>_NEW =0.7858255793078579
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5001958028290722
+observed <F> =0.7484948828778097
+A < 1
+minimum difference before optimization is 0.0010188315697540196
+Start with optimization...
+      fun: 3.653785718427116e-09
+ hess_inv: array([[0.06068861]])
+      jac: array([-7.4505806e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 52
+      nit: 3
+     njev: 26
+   status: 0
+  success: True
+        x: array([0.27207624])
+..Optimization done!
+norm. factor A =0.27207623583747576
+<F>_NEW =0.7484948869702346
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.42347697660762623
+observed <F> =0.7096595679878841
+A < 1
+minimum difference before optimization is 0.0021157555993096544
+Start with optimization...
+      fun: 3.546142823829257e-09
+ hess_inv: array([[1.34011826e-08]])
+      jac: array([0.08000943])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 3
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.25380205])
+..Optimization done!
+norm. factor A =0.2538020509634569
+<F>_NEW =0.7096595722051069
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.3415572103467389
+observed <F> =0.6696123268101059
+A < 1
+minimum difference before optimization is 0.00035429472910508686
+Start with optimization...
+      fun: 3.6382472590190673e-09
+ hess_inv: array([[1.20988406e-08]])
+      jac: array([0.12749213])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 78
+      nit: 3
+     njev: 33
+   status: 2
+  success: False
+        x: array([0.22942461])
+..Optimization done!
+norm. factor A =0.22942460635349074
+<F>_NEW =0.6696123315862302
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.26434812983131784
+observed <F> =0.6286734108200277
+A < 1
+minimum difference before optimization is 0.002190034211234315
+Start with optimization...
+      fun: 3.562333039663912e-09
+ hess_inv: array([[0.12163003]])
+      jac: array([0.17533035])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.2066477])
+..Optimization done!
+norm. factor A =0.2066476992195962
+<F>_NEW =0.6286734161461173
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.19329306195634638
+observed <F> =0.587177500631405
+A < 1
+minimum difference before optimization is 0.0027005814749361257
+Start with optimization...
+      fun: 2.7753420672738116e-09
+ hess_inv: array([[0.15530943]])
+      jac: array([0.28779606])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 78
+      nit: 2
+     njev: 33
+   status: 2
+  success: False
+        x: array([0.18409062])
+..Optimization done!
+norm. factor A =0.1840906194654689
+<F>_NEW =0.5871775055817909
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.1322776866107285
+observed <F> =0.5454711258262535
+A < 1
+minimum difference before optimization is 0.001720670658508533
+Start with optimization...
+      fun: 1.041108504962196e-09
+ hess_inv: array([[0.38946447]])
+      jac: array([0.48817677])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.16274185])
+..Optimization done!
+norm. factor A =0.16274184577570544
+<F>_NEW =0.5454711281680704
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.05202106866434644
+observed <F> =0.4392620830095775
+A < 1
+minimum difference before optimization is 0.0013649065311693853
+Start with optimization...
+      fun: 2.322309303193215e-09
+ hess_inv: array([[0.04055319]])
+      jac: array([0.16214835])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 70
+      nit: 2
+     njev: 29
+   status: 2
+  success: False
+        x: array([0.14288664])
+..Optimization done!
+norm. factor A =0.14288664382240648
+<F>_NEW =0.4392620916232476
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.01682585800858225
+observed <F> =0.31526125805813615
+A < 1
+minimum difference before optimization is 0.0007682515395327771
+Start with optimization...
+      fun: 2.2166738236628625e-09
+ hess_inv: array([[0.10615845]])
+      jac: array([-2.79396772e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 52
+      nit: 3
+     njev: 26
+   status: 0
+  success: True
+        x: array([0.14259214])
+..Optimization done!
+norm. factor A =0.14259213959512418
+<F>_NEW =0.315261271151939
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.0037274894614343986
+observed <F> =0.2049995133054248
+A < 1
+minimum difference before optimization is 0.0001637944808152228
+Start with optimization...
+      fun: 5.212998747949893e-10
+ hess_inv: array([[0.66979668]])
+      jac: array([0.07103086])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 74
+      nit: 1
+     njev: 31
+   status: 2
+  success: False
+        x: array([0.13884167])
+..Optimization done!
+norm. factor A =0.1388416704264843
+<F>_NEW =0.20499951918271136
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.583
+********
+num of redshift bins = (10,)
+num of sims = 3
+<F> =0.6469940800990496
+observed <F> =0.8246334147601062
+A < 1
+minimum difference before optimization is 0.0007267484477283537
+Start with optimization...
+      fun: 1.6055103913004132e-09
+ hess_inv: array([[0.38745022]])
+      jac: array([0.15777978])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.25805054])
+..Optimization done!
+norm. factor A =0.2580505392188928
+<F>_NEW =0.8246334164475707
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.588553351149439
+observed <F> =0.7931422198782697
+A < 1
+minimum difference before optimization is 0.0012454151610759023
+Start with optimization...
+      fun: 3.228555645051756e-09
+ hess_inv: array([[0.13512053]])
+      jac: array([-3.7252903e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 62
+      nit: 3
+     njev: 31
+   status: 0
+  success: True
+        x: array([0.2471206])
+..Optimization done!
+norm. factor A =0.2471205978988017
+<F>_NEW =0.7931422233291078
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.5259297887545541
+observed <F> =0.7600463015133024
+A < 1
+minimum difference before optimization is 0.001847171816482307
+Start with optimization...
+      fun: 2.569562784771051e-09
+ hess_inv: array([[0.28349325]])
+      jac: array([0.15229617])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 74
+      nit: 2
+     njev: 31
+   status: 2
+  success: False
+        x: array([0.23370651])
+..Optimization done!
+norm. factor A =0.2337065088162807
+<F>_NEW =0.7600463043356569
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.4590739922606209
+observed <F> =0.7255356418236729
+A < 1
+minimum difference before optimization is 0.0013499329004709182
+Start with optimization...
+      fun: 2.518730224387866e-09
+ hess_inv: array([[0.33408072]])
+      jac: array([0.22534075])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 2
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.21760041])
+..Optimization done!
+norm. factor A =0.2176004094779918
+<F>_NEW =0.7255356447118012
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3895706932902208
+observed <F> =0.6898268179003667
+A < 1
+minimum difference before optimization is 6.590761723090921e-05
+Start with optimization...
+      fun: 2.1638097980059e-09
+ hess_inv: array([[0.52950403]])
+      jac: array([0.33705755])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 92
+      nit: 2
+     njev: 40
+   status: 2
+  success: False
+        x: array([0.20010503])
+..Optimization done!
+norm. factor A =0.2001050256269645
+<F>_NEW =0.6898268205434628
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.32102895344598814
+observed <F> =0.6531539006404935
+A < 1
+minimum difference before optimization is 0.0021735510109598954
+Start with optimization...
+      fun: 3.4536430382203775e-09
+ hess_inv: array([[1.0931182e-08]])
+      jac: array([0.21804942])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 78
+      nit: 3
+     njev: 33
+   status: 2
+  success: False
+        x: array([0.1831834])
+..Optimization done!
+norm. factor A =0.18318339652802954
+<F>_NEW =0.6531539052299822
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.25507897548731645
+observed <F> =0.6157684214430305
+A < 1
+minimum difference before optimization is 0.0024151326413818786
+Start with optimization...
+      fun: 2.28549668079836e-09
+ hess_inv: array([[0.43166856]])
+      jac: array([0.41167397])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.16663298])
+..Optimization done!
+norm. factor A =0.16663298328491868
+<F>_NEW =0.6157684248403841
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.14531631112444232
+observed <F> =0.5178201823989634
+A < 1
+minimum difference before optimization is 0.0028463015010233295
+Start with optimization...
+      fun: 5.87306814292532e-10
+ hess_inv: array([[1.22990227]])
+      jac: array([0.62672024])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 2
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.15596336])
+..Optimization done!
+norm. factor A =0.15596336357067575
+<F>_NEW =0.5178201834826622
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.07333392461112832
+observed <F> =0.39713346353572426
+A < 1
+minimum difference before optimization is 0.002483204873391487
+Start with optimization...
+      fun: 7.182735517474725e-10
+ hess_inv: array([[0.52043303]])
+      jac: array([0.51508082])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.16594463])
+..Optimization done!
+norm. factor A =0.16594463492425288
+<F>_NEW =0.39713346508047326
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.029446013730858898
+observed <F> =0.281450655187925
+A < 1
+minimum difference before optimization is 0.00021238952761015728
+Start with optimization...
+      fun: 3.2755758105906807e-09
+ hess_inv: array([[0.01129374]])
+      jac: array([0.02238857])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 68
+      nit: 3
+     njev: 28
+   status: 2
+  success: False
+        x: array([0.17045988])
+..Optimization done!
+norm. factor A =0.17045987711995023
+<F>_NEW =0.2814506639997464
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.302
+<F> =0.6091565243247691
+observed <F> =0.8246334147601062
+A < 1
+minimum difference before optimization is 0.0017251995547107324
+Start with optimization...
+      fun: 3.116947033809936e-09
+ hess_inv: array([[1.77407005e-08]])
+      jac: array([0.00162171])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 3
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.22588151])
+..Optimization done!
+norm. factor A =0.22588151054935185
+<F>_NEW =0.8246334182396505
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5430854344345509
+observed <F> =0.7931422198782697
+A < 1
+minimum difference before optimization is 0.0021466556298316286
+Start with optimization...
+      fun: 3.3710932934027937e-09
+ hess_inv: array([[1.53776454e-08]])
+      jac: array([0.03204652])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 3
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.21555768])
+..Optimization done!
+norm. factor A =0.21555767536592368
+<F>_NEW =0.7931422237831234
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.47198215563507256
+observed <F> =0.7600463015133024
+A < 1
+minimum difference before optimization is 0.001076509513332713
+Start with optimization...
+      fun: 2.6800951458127997e-09
+ hess_inv: array([[0.31306831]])
+      jac: array([0.1911516])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.20195204])
+..Optimization done!
+norm. factor A =0.20195204105581022
+<F>_NEW =0.7600463047935359
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.39586448083913844
+observed <F> =0.7255356418236729
+A < 1
+minimum difference before optimization is 0.0030363691088243216
+Start with optimization...
+      fun: 3.4184278741022922e-09
+ hess_inv: array([[1.21035418e-08]])
+      jac: array([0.15675675])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 78
+      nit: 3
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.18505485])
+..Optimization done!
+norm. factor A =0.18505484829985352
+<F>_NEW =0.7255356463693377
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3214537189941278
+observed <F> =0.6898268179003667
+A < 1
+minimum difference before optimization is 0.0006570071898104324
+Start with optimization...
+      fun: 4.4347771566144445e-09
+ hess_inv: array([[0.20901552]])
+      jac: array([0.07055978])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 74
+      nit: 2
+     njev: 31
+   status: 2
+  success: False
+        x: array([0.16901273])
+..Optimization done!
+norm. factor A =0.1690127329460725
+<F>_NEW =0.689826824465348
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.24970881064333006
+observed <F> =0.6531539006404935
+A < 1
+minimum difference before optimization is 0.001823552749424584
+Start with optimization...
+      fun: 5.177401840583684e-09
+ hess_inv: array([[0.12009746]])
+      jac: array([1.11758709e-07])
+  message: 'Optimization terminated successfully.'
+     nfev: 66
+      nit: 3
+     njev: 33
+   status: 0
+  success: True
+        x: array([0.15262156])
+..Optimization done!
+norm. factor A =0.1526215573590319
+<F>_NEW =0.6531539094857222
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.18415017868624764
+observed <F> =0.6157684214430305
+A < 1
+minimum difference before optimization is 0.002324214861160523
+Start with optimization...
+      fun: 2.916048125189974e-09
+ hess_inv: array([[0.2817551]])
+      jac: array([0.30175588])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 2
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.13664391])
+..Optimization done!
+norm. factor A =0.13664391269681692
+<F>_NEW =0.6157684274472612
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.08709250738242114
+observed <F> =0.5178201823989634
+A < 1
+minimum difference before optimization is 0.0019075682035475383
+Start with optimization...
+      fun: 4.023815947107323e-09
+ hess_inv: array([[0.16032605]])
+      jac: array([0.04845878])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 68
+      nit: 2
+     njev: 28
+   status: 2
+  success: False
+        x: array([0.12324302])
+..Optimization done!
+norm. factor A =0.1232430234820002
+<F>_NEW =0.517820194787365
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.03506963900728507
+observed <F> =0.39713346353572426
+A < 1
+minimum difference before optimization is 0.001697926035036379
+Start with optimization...
+      fun: 2.874843377242975e-09
+ hess_inv: array([[0.0565232]])
+      jac: array([0.03692856])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 66
+      nit: 2
+     njev: 27
+   status: 2
+  success: False
+        x: array([0.12599741])
+..Optimization done!
+norm. factor A =0.12599740604923026
+<F>_NEW =0.3971334764644545
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.010445450548892288
+observed <F> =0.281450655187925
+A < 1
+minimum difference before optimization is 0.0011992254864443552
+Start with optimization...
+      fun: 1.8184276723287596e-09
+ hess_inv: array([[0.19876277]])
+      jac: array([3.7252903e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 52
+      nit: 3
+     njev: 26
+   status: 0
+  success: True
+        x: array([0.12495454])
+..Optimization done!
+norm. factor A =0.12495453963004359
+<F>_NEW =0.28145066897821513
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.453
+<F> =0.5739132423935531
+observed <F> =0.8246334147601062
+A < 1
+minimum difference before optimization is 0.0004935906849925509
+Start with optimization...
+      fun: 3.2110248904260175e-09
+ hess_inv: array([[1.64639403e-08]])
+      jac: array([0.02156322])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 3
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.20890864])
+..Optimization done!
+norm. factor A =0.20890863964119613
+<F>_NEW =0.8246334185647963
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5001958028290722
+observed <F> =0.7931422198782697
+A < 1
+minimum difference before optimization is 0.0013606124275226117
+Start with optimization...
+      fun: 3.870306852782335e-09
+ hess_inv: array([[0.14764503]])
+      jac: array([-1.63912773e-07])
+  message: 'Optimization terminated successfully.'
+     nfev: 48
+      nit: 3
+     njev: 24
+   status: 0
+  success: True
+        x: array([0.19737737])
+..Optimization done!
+norm. factor A =0.197377368078909
+<F>_NEW =0.793142224745787
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.42347697660762623
+observed <F> =0.7600463015133024
+A < 1
+minimum difference before optimization is 0.00238753364711608
+Start with optimization...
+      fun: 2.097303997139477e-09
+ hess_inv: array([[0.35487066]])
+      jac: array([0.30034287])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 2
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.18409603])
+..Optimization done!
+norm. factor A =0.18409602940243927
+<F>_NEW =0.7600463043742617
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.3415572103467389
+observed <F> =0.7255356418236729
+A < 1
+minimum difference before optimization is 0.0022361887841655936
+Start with optimization...
+      fun: 3.499263490081006e-09
+ hess_inv: array([[1.17120583e-08]])
+      jac: array([0.16648304])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 84
+      nit: 3
+     njev: 36
+   status: 2
+  success: False
+        x: array([0.16648027])
+..Optimization done!
+norm. factor A =0.166480268054918
+<F>_NEW =0.7255356472166764
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.26434812983131784
+observed <F> =0.6898268179003667
+A < 1
+minimum difference before optimization is 2.3391873660461027e-05
+Start with optimization...
+      fun: 4.961832389405174e-09
+ hess_inv: array([[0.155043]])
+      jac: array([4.09781933e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 56
+      nit: 3
+     njev: 28
+   status: 0
+  success: True
+        x: array([0.15003512])
+..Optimization done!
+norm. factor A =0.15003511693641108
+<F>_NEW =0.689826826832311
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.19329306195634638
+observed <F> =0.6531539006404935
+A < 1
+minimum difference before optimization is 0.00249796235908617
+Start with optimization...
+      fun: 2.8097322801734492e-09
+ hess_inv: array([[0.24901576]])
+      jac: array([0.28627442])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.13376304])
+..Optimization done!
+norm. factor A =0.1337630439017911
+<F>_NEW =0.6531539068417506
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.1322776866107285
+observed <F> =0.6157684214430305
+A < 1
+minimum difference before optimization is 0.0010223573526161878
+Start with optimization...
+      fun: 4.133217573754067e-09
+ hess_inv: array([[0.17308179]])
+      jac: array([0.06665394])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 2
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.11835477])
+..Optimization done!
+norm. factor A =0.11835476891118674
+<F>_NEW =0.6157684332907977
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.05202106866434644
+observed <F> =0.5178201823989634
+A < 1
+minimum difference before optimization is 0.0017638205643566301
+Start with optimization...
+      fun: 2.5551512294885725e-10
+ hess_inv: array([[0.63450775]])
+      jac: array([0.41546828])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 90
+      nit: 2
+     njev: 39
+   status: 2
+  success: False
+        x: array([0.10393036])
+..Optimization done!
+norm. factor A =0.10393036109249482
+<F>_NEW =0.5178201837159923
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.01682585800858225
+observed <F> =0.39713346353572426
+A < 1
+minimum difference before optimization is 0.0009103816954838875
+Start with optimization...
+      fun: 1.2058732415387574e-09
+ hess_inv: array([[0.03639616]])
+      jac: array([0.10365075])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.10344551])
+..Optimization done!
+norm. factor A =0.1034455149668147
+<F>_NEW =0.3971334748388203
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.0037274894614343986
+observed <F> =0.281450655187925
+A < 1
+minimum difference before optimization is 3.611367366501174e-05
+Start with optimization...
+      fun: 8.650046234848219e-10
+ hess_inv: array([[0.21938871]])
+      jac: array([9.31322575e-10])
+  message: 'Optimization terminated successfully.'
+     nfev: 46
+      nit: 3
+     njev: 23
+   status: 0
+  success: True
+        x: array([0.1003113])
+..Optimization done!
+norm. factor A =0.10031129794521147
+<F>_NEW =0.28145067357050907
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.583
+********
+num of redshift bins = (10,)
+num of sims = 3
+<F> =0.6469940800990496
+observed <F> =0.7934382160862451
+A < 1
+minimum difference before optimization is 0.0016864777749646676
+Start with optimization...
+      fun: 7.229313814249849e-10
+ hess_inv: array([[0.14401093]])
+      jac: array([0.24188885])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 2
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.34496426])
+..Optimization done!
+norm. factor A =0.3449642582014232
+<F>_NEW =0.7934382167896785
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.588553351149439
+observed <F> =0.7572186155853385
+A < 1
+minimum difference before optimization is 0.0009520599053376433
+Start with optimization...
+      fun: 1.757068046615018e-09
+ hess_inv: array([[0.07724124]])
+      jac: array([0.15920693])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 2
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.3324074])
+..Optimization done!
+norm. factor A =0.3324073991307598
+<F>_NEW =0.7572186172971082
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.5259297887545541
+observed <F> =0.719462330296101
+A < 1
+minimum difference before optimization is 0.0018818408388827645
+Start with optimization...
+      fun: 9.033902514943293e-10
+ hess_inv: array([[0.26401782]])
+      jac: array([0.33496855])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 84
+      nit: 2
+     njev: 36
+   status: 2
+  success: False
+        x: array([0.31586784])
+..Optimization done!
+norm. factor A =0.3158678368917672
+<F>_NEW =0.7194623311852278
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.4590739922606209
+observed <F> =0.680441044142458
+A < 1
+minimum difference before optimization is 0.0025243201990884367
+Start with optimization...
+      fun: 3.886285737664252e-09
+ hess_inv: array([[0.05755226]])
+      jac: array([-7.4505806e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 52
+      nit: 3
+     njev: 26
+   status: 0
+  success: True
+        x: array([0.29515121])
+..Optimization done!
+norm. factor A =0.29515120874616585
+<F>_NEW =0.6804410480619794
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3895706932902208
+observed <F> =0.6404542160784769
+A < 1
+minimum difference before optimization is 0.0011753854930172114
+Start with optimization...
+      fun: 1.1423993973025404e-09
+ hess_inv: array([[0.40334144]])
+      jac: array([0.43401704])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 84
+      nit: 2
+     njev: 36
+   status: 2
+  success: False
+        x: array([0.27199974])
+..Optimization done!
+norm. factor A =0.271999737340474
+<F>_NEW =0.6404542172813168
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.32102895344598814
+observed <F> =0.5998168058151503
+A < 1
+minimum difference before optimization is 0.0004989352874542607
+Start with optimization...
+      fun: 3.480927102117448e-09
+ hess_inv: array([[0.15709081]])
+      jac: array([0.17848201])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 78
+      nit: 2
+     njev: 33
+   status: 2
+  success: False
+        x: array([0.24922709])
+..Optimization done!
+norm. factor A =0.24922708944864574
+<F>_NEW =0.5998168097162585
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.25507897548731645
+observed <F> =0.5588572582421174
+A < 1
+minimum difference before optimization is 0.002268350172492495
+Start with optimization...
+      fun: 2.1326215238204327e-09
+ hess_inv: array([[0.26698833]])
+      jac: array([0.40329982])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 2
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.22670781])
+..Optimization done!
+norm. factor A =0.22670780847654776
+<F>_NEW =0.5588572608533221
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.14531631112444232
+observed <F> =0.45395705303343004
+A < 1
+minimum difference before optimization is 0.0015141532926512546
+Start with optimization...
+      fun: 3.173541596179774e-09
+ hess_inv: array([[0.15433226]])
+      jac: array([0.27636262])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 2
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.21215619])
+..Optimization done!
+norm. factor A =0.2121561881800778
+<F>_NEW =0.4539570575339156
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.07333392461112832
+observed <F> =0.3301594862772787
+A < 1
+minimum difference before optimization is 0.0027083912838911373
+Start with optimization...
+      fun: 1.954702316675494e-09
+ hess_inv: array([[0.09146336]])
+      jac: array([0.37985298])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.22579099])
+..Optimization done!
+norm. factor A =0.2257909869554375
+<F>_NEW =0.33015948918279464
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.029446013730858898
+observed <F> =0.2184151286777915
+A < 1
+minimum difference before optimization is 0.0010731966884029998
+Start with optimization...
+      fun: 3.87271914537024e-09
+ hess_inv: array([[0.01810437]])
+      jac: array([1.11758709e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 44
+      nit: 3
+     njev: 22
+   status: 0
+  success: True
+        x: array([0.23206884])
+..Optimization done!
+norm. factor A =0.23206883993277228
+<F>_NEW =0.2184151349519421
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.302
+<F> =0.6091565243247691
+observed <F> =0.7934382160862451
+A < 1
+minimum difference before optimization is 0.0008249397532534841
+Start with optimization...
+      fun: 2.681336264132028e-09
+ hess_inv: array([[1.91564661e-08]])
+      jac: array([0.02904982])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 72
+      nit: 3
+     njev: 30
+   status: 2
+  success: False
+        x: array([0.29787693])
+..Optimization done!
+norm. factor A =0.2978769266041109
+<F>_NEW =0.7934382188573222
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5430854344345509
+observed <F> =0.7572186155853385
+A < 1
+minimum difference before optimization is 0.002208715795329441
+Start with optimization...
+      fun: 1.7144806685465142e-09
+ hess_inv: array([[1.64816349e-08]])
+      jac: array([0.22193962])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 3
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.28510421])
+..Optimization done!
+norm. factor A =0.2851042093078699
+<F>_NEW =0.757218617395457
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.47198215563507256
+observed <F> =0.719462330296101
+A < 1
+minimum difference before optimization is 0.001239139774378284
+Start with optimization...
+      fun: 1.0824482421512016e-09
+ hess_inv: array([[0.4146242]])
+      jac: array([0.37346072])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.26760917])
+..Optimization done!
+norm. factor A =0.26760916695336706
+<F>_NEW =0.7194623314832292
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.39586448083913844
+observed <F> =0.680441044142458
+A < 1
+minimum difference before optimization is 0.0027020951698865092
+Start with optimization...
+      fun: 1.3561443079623814e-09
+ hess_inv: array([[0.3635644]])
+      jac: array([0.40386616])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.24538129])
+..Optimization done!
+norm. factor A =0.24538129483396676
+<F>_NEW =0.6804410457285939
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3214537189941278
+observed <F> =0.6404542160784769
+A < 1
+minimum difference before optimization is 0.002632975849009511
+Start with optimization...
+      fun: 3.83448173213452e-09
+ hess_inv: array([[0.13421545]])
+      jac: array([0.12632196])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 74
+      nit: 2
+     njev: 31
+   status: 2
+  success: False
+        x: array([0.22410344])
+..Optimization done!
+norm. factor A =0.22410343584202308
+<F>_NEW =0.6404542209713548
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.24970881064333006
+observed <F> =0.5998168058151503
+A < 1
+minimum difference before optimization is 0.0015353584438424495
+Start with optimization...
+      fun: 9.28728094429232e-10
+ hess_inv: array([[0.66132387]])
+      jac: array([0.55246041])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.20226664])
+..Optimization done!
+norm. factor A =0.2022666384515377
+<F>_NEW =0.5998168071532608
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.18415017868624764
+observed <F> =0.5588572582421174
+A < 1
+minimum difference before optimization is 0.0006426887913371093
+Start with optimization...
+      fun: 2.1745927281102695e-09
+ hess_inv: array([[0.30112743]])
+      jac: array([0.39222022])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.18093943])
+..Optimization done!
+norm. factor A =0.18093943011547525
+<F>_NEW =0.558857261930259
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.08709250738242114
+observed <F> =0.45395705303343004
+A < 1
+minimum difference before optimization is 0.0018358422918085815
+Start with optimization...
+      fun: 9.35043320549056e-10
+ hess_inv: array([[0.4020359]])
+      jac: array([0.47606419])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 84
+      nit: 2
+     njev: 36
+   status: 2
+  success: False
+        x: array([0.16305505])
+..Optimization done!
+norm. factor A =0.1630550535476188
+<F>_NEW =0.4539570552459158
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.03506963900728507
+observed <F> =0.3301594862772787
+A < 1
+minimum difference before optimization is 0.0014291224879084963
+Start with optimization...
+      fun: 1.0105879882926772e-09
+ hess_inv: array([[0.00117365]])
+      jac: array([0.31917772])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 2
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.16686703])
+..Optimization done!
+norm. factor A =0.16686702718620686
+<F>_NEW =0.33015948941844114
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.010445450548892288
+observed <F> =0.2184151286777915
+A < 1
+minimum difference before optimization is 0.0011648240904836363
+Start with optimization...
+      fun: 7.144470709485873e-10
+ hess_inv: array([[0.06647223]])
+      jac: array([0.18443067])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.16587363])
+..Optimization done!
+norm. factor A =0.16587363165339242
+<F>_NEW =0.21841513194072576
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.453
+<F> =0.5739132423935531
+observed <F> =0.7934382160862451
+A < 1
+minimum difference before optimization is 0.000513637329083938
+Start with optimization...
+      fun: 1.535859106560622e-09
+ hess_inv: array([[0.25816821]])
+      jac: array([0.22152161])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.27120048])
+..Optimization done!
+norm. factor A =0.27120048327297147
+<F>_NEW =0.7934382177709792
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5001958028290722
+observed <F> =0.7572186155853385
+A < 1
+minimum difference before optimization is 0.0017547284255776674
+Start with optimization...
+      fun: 6.944735897462806e-10
+ hess_inv: array([[0.64280749]])
+      jac: array([0.40203479])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 2
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.25645273])
+..Optimization done!
+norm. factor A =0.256452728189409
+<F>_NEW =0.7572186163814214
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.42347697660762623
+observed <F> =0.719462330296101
+A < 1
+minimum difference before optimization is 0.0004306755099533488
+Start with optimization...
+      fun: 3.536555159833199e-09
+ hess_inv: array([[1.33021066e-08]])
+      jac: array([0.08543681])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 3
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.23923092])
+..Optimization done!
+norm. factor A =0.2392309151645769
+<F>_NEW =0.7194623346189171
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.3415572103467389
+observed <F> =0.680441044142458
+A < 1
+minimum difference before optimization is 0.0023041399274670304
+Start with optimization...
+      fun: 3.1257835209075324e-09
+ hess_inv: array([[0.14878135]])
+      jac: array([0.19927489])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.21627375])
+..Optimization done!
+norm. factor A =0.21627375194429582
+<F>_NEW =0.6804410483796334
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.26434812983131784
+observed <F> =0.6404542160784769
+A < 1
+minimum difference before optimization is 0.0031607493848619383
+Start with optimization...
+      fun: 1.7693429499310298e-09
+ hess_inv: array([[0.26802844]])
+      jac: array([0.41742614])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.19482362])
+..Optimization done!
+norm. factor A =0.19482362421816918
+<F>_NEW =0.6404542188239168
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.19329306195634638
+observed <F> =0.5998168058151503
+A < 1
+minimum difference before optimization is 0.002363373614159503
+Start with optimization...
+      fun: 2.0934680100559433e-09
+ hess_inv: array([[0.2329858]])
+      jac: array([0.37892182])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 70
+      nit: 2
+     njev: 29
+   status: 2
+  success: False
+        x: array([0.1735815])
+..Optimization done!
+norm. factor A =0.17358150233915778
+<F>_NEW =0.5998168097117638
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.1322776866107285
+observed <F> =0.5588572582421174
+A < 1
+minimum difference before optimization is 0.0021724490239463934
+Start with optimization...
+      fun: 1.1113623632486025e-09
+ hess_inv: array([[0.39310713]])
+      jac: array([0.47650863])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 84
+      nit: 2
+     njev: 36
+   status: 2
+  success: False
+        x: array([0.15347426])
+..Optimization done!
+norm. factor A =0.1534742551062908
+<F>_NEW =0.55885726086616
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.05202106866434644
+observed <F> =0.45395705303343004
+A < 1
+minimum difference before optimization is 0.0022156268771636595
+Start with optimization...
+      fun: 3.281396002141612e-09
+ hess_inv: array([[0.02262108]])
+      jac: array([0.02782671])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 64
+      nit: 2
+     njev: 26
+   status: 2
+  success: False
+        x: array([0.13474774])
+..Optimization done!
+norm. factor A =0.13474774235407544
+<F>_NEW =0.4539570660323995
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.01682585800858225
+observed <F> =0.3301594862772787
+A < 1
+minimum difference before optimization is 0.0012691062767927336
+Start with optimization...
+      fun: 2.163575846259036e-09
+ hess_inv: array([[0.22602122]])
+      jac: array([-3.25962901e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 54
+      nit: 3
+     njev: 27
+   status: 0
+  success: True
+        x: array([0.13439873])
+..Optimization done!
+norm. factor A =0.13439873194279736
+<F>_NEW =0.33015950029387237
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.0037274894614343986
+observed <F> =0.2184151286777915
+A < 1
+minimum difference before optimization is 0.00010269276293875876
+Start with optimization...
+      fun: 1.0089226919196559e-09
+ hess_inv: array([[0.77396759]])
+      jac: array([2.09547579e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 56
+      nit: 3
+     njev: 28
+   status: 0
+  success: True
+        x: array([0.13075979])
+..Optimization done!
+norm. factor A =0.13075979232856003
+<F>_NEW =0.21841514159019013
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.583
+********
+num of redshift bins = (10,)
+num of sims = 3
+<F> =0.6469940800990496
+observed <F> =0.7232998254862785
+A < 1
+minimum difference before optimization is 0.00043528147460758504
+Start with optimization...
+      fun: 7.047943340054985e-10
+ hess_inv: array([[6.99347987]])
+      jac: array([0.19047974])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 98
+      nit: 2
+     njev: 43
+   status: 2
+  success: False
+        x: array([0.60152633])
+..Optimization done!
+norm. factor A =0.6015263338792224
+<F>_NEW =0.7232998260561787
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.588553351149439
+observed <F> =0.6775007730095206
+A < 1
+minimum difference before optimization is 0.0016505065222596205
+Start with optimization...
+      fun: 5.713851614075338e-10
+ hess_inv: array([[10.67247409]])
+      jac: array([0.26086313])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.58510532])
+..Optimization done!
+norm. factor A =0.5851053199185438
+<F>_NEW =0.6775007734551386
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.5259297887545541
+observed <F> =0.630683231253036
+A < 1
+minimum difference before optimization is 0.0001595477703150161
+Start with optimization...
+      fun: 2.138519139549544e-09
+ hess_inv: array([[1.78312909]])
+      jac: array([0.11082996])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 2
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.55959895])
+..Optimization done!
+norm. factor A =0.5595989478252225
+<F>_NEW =0.6306832328704006
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.4590739922606209
+observed <F> =0.583319779921013
+A < 1
+minimum difference before optimization is 0.002321469119721198
+Start with optimization...
+      fun: 1.0879571687993916e-09
+ hess_inv: array([[4.06461898]])
+      jac: array([0.32005354])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 88
+      nit: 2
+     njev: 38
+   status: 2
+  success: False
+        x: array([0.52501558])
+..Optimization done!
+norm. factor A =0.5250155837099254
+<F>_NEW =0.5833197807273981
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3895706932902208
+observed <F> =0.5358994662736308
+A < 1
+minimum difference before optimization is 0.002531327920673565
+Start with optimization...
+      fun: 2.816781252690248e-09
+ hess_inv: array([[1.38201555e-08]])
+      jac: array([0.16104755])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 89
+      nit: 3
+     njev: 39
+   status: 2
+  success: False
+        x: array([0.48469315])
+..Optimization done!
+norm. factor A =0.4846931505635592
+<F>_NEW =0.5358994683501382
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.32102895344598814
+observed <F> =0.48890680443929285
+A < 1
+minimum difference before optimization is 0.0026199593864711934
+Start with optimization...
+      fun: 3.5334738468506544e-09
+ hess_inv: array([[0.08154474]])
+      jac: array([0.13530505])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 2
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.44429723])
+..Optimization done!
+norm. factor A =0.44429722635110036
+<F>_NEW =0.4889068070702262
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.25507897548731645
+observed <F> =0.44281390925904934
+A < 1
+minimum difference before optimization is 0.002575989649190924
+Start with optimization...
+      fun: 1.087019918522003e-09
+ hess_inv: array([[0.03540367]])
+      jac: array([0.52504282])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.40383969])
+..Optimization done!
+norm. factor A =0.4038396866392355
+<F>_NEW =0.4428139100946627
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.14531631112444232
+observed <F> =0.3309944221819118
+A < 1
+minimum difference before optimization is 0.0018944451566678677
+Start with optimization...
+      fun: 1.1408887723440841e-09
+ hess_inv: array([[0.03134445]])
+      jac: array([0.5913897])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.3774571])
+..Optimization done!
+norm. factor A =0.3774571005864568
+<F>_NEW =0.33099442304205406
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.07333392461112832
+observed <F> =0.21194017673838095
+A < 1
+minimum difference before optimization is 0.001345649828638107
+Start with optimization...
+      fun: 1.2585690822852769e-09
+ hess_inv: array([[0.0546272]])
+      jac: array([0.60473434])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.40174103])
+..Optimization done!
+norm. factor A =0.40174102575003356
+<F>_NEW =0.21194017750928215
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.029446013730858898
+observed <F> =0.11884907432434196
+A < 1
+minimum difference before optimization is 0.002428268709545961
+Start with optimization...
+      fun: 1.6884256492932792e-09
+ hess_inv: array([[0.0807972]])
+      jac: array([0.51127733])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 2
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.41330106])
+..Optimization done!
+norm. factor A =0.41330105535345635
+<F>_NEW =0.11884907513427113
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.302
+<F> =0.6091565243247691
+observed <F> =0.7232998254862785
+A < 1
+minimum difference before optimization is 0.0012308353241140546
+Start with optimization...
+      fun: 1.300929253211791e-09
+ hess_inv: array([[3.73829476]])
+      jac: array([0.16691101])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 82
+      nit: 2
+     njev: 35
+   status: 2
+  success: False
+        x: array([0.50360114])
+..Optimization done!
+norm. factor A =0.5036011410696721
+<F>_NEW =0.7232998266035571
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5430854344345509
+observed <F> =0.6775007730095206
+A < 1
+minimum difference before optimization is 0.001483732326823306
+Start with optimization...
+      fun: 1.0417999796175081e-09
+ hess_inv: array([[4.89913721]])
+      jac: array([0.26547488])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 90
+      nit: 2
+     njev: 39
+   status: 2
+  success: False
+        x: array([0.48365839])
+..Optimization done!
+norm. factor A =0.483658391575697
+<F>_NEW =0.6775007738900336
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.47198215563507256
+observed <F> =0.630683231253036
+A < 1
+minimum difference before optimization is 0.0022459793586295795
+Start with optimization...
+      fun: 2.2662385301686072e-09
+ hess_inv: array([[1.93934353]])
+      jac: array([0.17185666])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 90
+      nit: 2
+     njev: 39
+   status: 2
+  success: False
+        x: array([0.45471517])
+..Optimization done!
+norm. factor A =0.45471517185239596
+<F>_NEW =0.6306832331629008
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.39586448083913844
+observed <F> =0.583319779921013
+A < 1
+minimum difference before optimization is 0.0017050034370946765
+Start with optimization...
+      fun: 8.472011980842353e-10
+ hess_inv: array([[0.04422789]])
+      jac: array([0.43761864])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 2
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.41690668])
+..Optimization done!
+norm. factor A =0.4169066794044464
+<F>_NEW =0.5833197806492177
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.3214537189941278
+observed <F> =0.5358994662736308
+A < 1
+minimum difference before optimization is 0.00028393662005776754
+Start with optimization...
+      fun: 1.1319150061694927e-09
+ hess_inv: array([[0.03030893]])
+      jac: array([0.46724916])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 84
+      nit: 2
+     njev: 36
+   status: 2
+  success: False
+        x: array([0.38045857])
+..Optimization done!
+norm. factor A =0.3804585691595378
+<F>_NEW =0.5358994672848888
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.24970881064333006
+observed <F> =0.48890680443929285
+A < 1
+minimum difference before optimization is 0.0020075291455513566
+Start with optimization...
+      fun: 4.307743828313448e-09
+ hess_inv: array([[0.01813708]])
+      jac: array([0.09408747])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 66
+      nit: 2
+     njev: 27
+   status: 2
+  success: False
+        x: array([0.34298681])
+..Optimization done!
+norm. factor A =0.342986809335187
+<F>_NEW =0.4889068085628135
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.18415017868624764
+observed <F> =0.44281390925904934
+A < 1
+minimum difference before optimization is 0.00253863516417957
+Start with optimization...
+      fun: 2.2963113632812338e-09
+ hess_inv: array([[0.00357806]])
+      jac: array([0.391027])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 2
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.30637175])
+..Optimization done!
+norm. factor A =0.30637174938690426
+<F>_NEW =0.4428139117041747
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.08709250738242114
+observed <F> =0.3309944221819118
+A < 1
+minimum difference before optimization is 0.0027884981750729287
+Start with optimization...
+      fun: 1.823016460011928e-09
+ hess_inv: array([[0.01469708]])
+      jac: array([0.4226688])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 78
+      nit: 2
+     njev: 33
+   status: 2
+  success: False
+        x: array([0.27583065])
+..Optimization done!
+norm. factor A =0.2758306459030565
+<F>_NEW =0.3309944244751604
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.03506963900728507
+observed <F> =0.21194017673838095
+A < 1
+minimum difference before optimization is 0.0017280220582149286
+Start with optimization...
+      fun: 4.249507828957277e-09
+ hess_inv: array([[0.79224365]])
+      jac: array([-1.67638063e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 62
+      nit: 3
+     njev: 31
+   status: 0
+  success: True
+        x: array([0.28303876])
+..Optimization done!
+norm. factor A =0.2830387628417343
+<F>_NEW =0.2119401821813258
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.010445450548892288
+observed <F> =0.11884907432434196
+A < 1
+minimum difference before optimization is 0.001153327636293347
+Start with optimization...
+      fun: 2.121042147473773e-09
+ hess_inv: array([[0.40564551]])
+      jac: array([0.12715386])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 76
+      nit: 2
+     njev: 32
+   status: 2
+  success: False
+        x: array([0.28281297])
+..Optimization done!
+norm. factor A =0.2828129738211679
+<F>_NEW =0.11884907719257042
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.453
+<F> =0.5739132423935531
+observed <F> =0.7232998254862785
+A < 1
+minimum difference before optimization is 0.0014478433748813524
+Start with optimization...
+      fun: 8.061046274931982e-10
+ hess_inv: array([[7.10344012]])
+      jac: array([0.2826612])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 94
+      nit: 2
+     njev: 41
+   status: 2
+  success: False
+        x: array([0.44370189])
+..Optimization done!
+norm. factor A =0.44370189381090375
+<F>_NEW =0.7232998262211001
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.0
+<F> =0.5001958028290722
+observed <F> =0.6775007730095206
+A < 1
+minimum difference before optimization is 0.0001271225249518393
+Start with optimization...
+      fun: 6.673389618683245e-10
+ hess_inv: array([[0.06842061]])
+      jac: array([0.37285019])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 86
+      nit: 2
+     njev: 37
+   status: 2
+  success: False
+        x: array([0.41972508])
+..Optimization done!
+norm. factor A =0.4197250813953688
+<F>_NEW =0.6775007736219077
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.2
+<F> =0.42347697660762623
+observed <F> =0.630683231253036
+A < 1
+minimum difference before optimization is 0.0007202678670996665
+Start with optimization...
+      fun: 3.985351493263067e-09
+ hess_inv: array([[0.16136953]])
+      jac: array([7.4505806e-09])
+  message: 'Optimization terminated successfully.'
+     nfev: 58
+      nit: 3
+     njev: 29
+   status: 0
+  success: True
+        x: array([0.3913464])
+..Optimization done!
+norm. factor A =0.3913464023232547
+<F>_NEW =0.6306832349963771
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.4
+<F> =0.3415572103467389
+observed <F> =0.583319779921013
+A < 1
+minimum difference before optimization is 0.0020920740780812075
+Start with optimization...
+      fun: 4.508871609409937e-09
+ hess_inv: array([[0.0293435]])
+      jac: array([5.96046448e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 46
+      nit: 3
+     njev: 23
+   status: 0
+  success: True
+        x: array([0.35345699])
+..Optimization done!
+norm. factor A =0.3534569921191343
+<F>_NEW =0.5833197844127862
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.6
+<F> =0.26434812983131784
+observed <F> =0.5358994662736308
+A < 1
+minimum difference before optimization is 0.0012275009497480505
+Start with optimization...
+      fun: 4.8910067107499344e-09
+ hess_inv: array([[0.03431324]])
+      jac: array([-8.19563866e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 50
+      nit: 3
+     njev: 25
+   status: 0
+  success: True
+        x: array([0.31813043])
+..Optimization done!
+norm. factor A =0.3181304306260744
+<F>_NEW =0.5358994715872285
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=3.8
+<F> =0.19329306195634638
+observed <F> =0.48890680443929285
+A < 1
+minimum difference before optimization is 0.0021493211939058177
+Start with optimization...
+      fun: 5.059214935876355e-09
+ hess_inv: array([[0.00193027]])
+      jac: array([2.23517418e-08])
+  message: 'Optimization terminated successfully.'
+     nfev: 46
+      nit: 3
+     njev: 23
+   status: 0
+  success: True
+        x: array([0.28316733])
+..Optimization done!
+norm. factor A =0.2831673338315853
+<F>_NEW =0.488906810695614
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.0
+<F> =0.1322776866107285
+observed <F> =0.44281390925904934
+A < 1
+minimum difference before optimization is 7.958867728030672e-05
+Start with optimization...
+      fun: 3.2632090918305323e-09
+ hess_inv: array([[1.12527256e-08]])
+      jac: array([0.22413291])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 71
+      nit: 3
+     njev: 30
+   status: 2
+  success: False
+        x: array([0.2501202])
+..Optimization done!
+norm. factor A =0.2501202043866179
+<F>_NEW =0.44281391409632487
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.2
+<F> =0.05202106866434644
+observed <F> =0.3309944221819118
+A < 1
+minimum difference before optimization is 0.00012346471732418984
+Start with optimization...
+      fun: 3.996790093330205e-09
+ hess_inv: array([[0.01029997]])
+      jac: array([0.])
+  message: 'Optimization terminated successfully.'
+     nfev: 50
+      nit: 3
+     njev: 25
+   status: 0
+  success: True
+        x: array([0.21976988])
+..Optimization done!
+norm. factor A =0.21976988167449363
+<F>_NEW =0.3309944305992239
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=4.6
+<F> =0.01682585800858225
+observed <F> =0.21194017673838095
+A < 1
+minimum difference before optimization is 0.00011838308053270519
+Start with optimization...
+      fun: 6.581856726306512e-10
+ hess_inv: array([[0.0747372]])
+      jac: array([0.28651006])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 80
+      nit: 2
+     njev: 34
+   status: 2
+  success: False
+        x: array([0.22031596])
+..Optimization done!
+norm. factor A =0.22031595957890898
+<F>_NEW =0.21194017849548627
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.0
+<F> =0.0037274894614343986
+observed <F> =0.11884907432434196
+A < 1
+minimum difference before optimization is 0.000851279678352343
+Start with optimization...
+      fun: 1.3208403537579017e-09
+ hess_inv: array([[3.64573832e-08]])
+      jac: array([0.02708391])
+  message: 'Desired error not necessarily achieved due to precision loss.'
+     nfev: 78
+      nit: 2
+     njev: 33
+   status: 2
+  success: False
+        x: array([0.21587423])
+..Optimization done!
+norm. factor A =0.21587423414665108
+<F>_NEW =0.11884907932958916
+len(deltas) = 10240000
+(2048,) (2048,)
+**DONE WITH z=5.4
+*DONE WITH model LCDM_neff=-2.583
