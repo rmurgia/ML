@@ -29,10 +29,10 @@ out_path = '/scratch/rmurgia/ML_catalogues/DMNU/variousNEFF/'
 if not os.path.exists(out_path):
 	os.makedirs(out_path)
 
-root = "LCDM_neff="
+root = "LCDM_"
 #labels = ['13','14','15','22','23','24','31','32','33']
 #labels = ['1','2','3','4','5','6','7','8','9','10','11','12','16','17','18','19','20','21','25','26','27','28','29','30','34','35','36']
-labels = ["-2.302","-2.453","-2.583"]
+labels = ["neff=-2.302"]
 sim_num = len(labels) #how many sims
 
 steps = 5	#number of files where you want to store "ker" quantities
@@ -207,8 +207,8 @@ for sim_index in range(sim_num):   #loop on sims
 					elif j == 3:
 						l_step = int((nlos/steps)*nbins)
 						print(str(l_step)+" == "+str((nlos/steps)*nbins))
-						#for f_index in range(0,steps):
-							#np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
+						for f_index in range(0,steps):
+							np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
 					print("> File %s saved: " %fout3)
 		   
 		else:	   ##BOTH LOS AND TAU
@@ -322,8 +322,8 @@ for sim_index in range(sim_num):   #loop on sims
 					elif j == 3:
 						l_step = int((nlos/steps)*nbins)
 						print(str(l_step)+" == "+str((nlos/steps)*nbins))
-						#for f_index in range(0,steps):
-								#np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
+						for f_index in range(0,steps):
+								np.savetxt(fout3nodat+str(f_index+1)+'.dat', np.transpose([rhokerH[f_index*l_step:(f_index+1)*l_step], rhokerH1[f_index*l_step:(f_index+1)*l_step], tempkerH1[f_index*l_step:(f_index+1)*l_step], velkerH1[f_index*l_step:(f_index+1)*l_step]]), header = FH+h3)
 					print("> File %s saved: " %fout3)			
 
 			### READ (AND PLOT) TAU

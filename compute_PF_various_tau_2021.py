@@ -6,6 +6,16 @@ import numpy as np
 import os, sys
 from scipy.optimize import minimize
 
+
+print('***************************************************************')
+print('***************************************************************')
+print('***************************************************************')
+print('      !!!!!!!!!!!!!!!!!!! NEW RUN !!!!!!!!!!!!!!!!!!!')
+print('***************************************************************')
+print('***************************************************************')
+print('***************************************************************')
+
+
 ########################################## INPUT
 
 #root = 'lcd'
@@ -14,13 +24,19 @@ from scipy.optimize import minimize
 #root = 'PBHs_'
 #labels = ['1e1-5_NEW','1e2-2_NEW','1e2-3_NEW', '1e2', '1e2-5','1e2-7','1e3-5','1e1','1e2-4','1e2-6','1e3','1e4']
 #labels = ['1e3']
-root = "LCDM_neff="
-labels = ['-2.302','-2.453','-2.583']
+root = "LCDM_"
+labels = ['neff=-2.302','neff=-2.453','neff=-2.583','neff=-2.043','neff=-2.168','s8=0.967','s8=0.697','neff=-2.302_Tverycold','neff=-2.302_Tveryhot']
+#labels = ['neff=-2.583','neff=-2.302']
 
-F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
-z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
-#F_obs_list = [0.364155, 0.253828, 0.146033, 0.0712724]
+#F_obs_list_ref = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
+#z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
+
+#F_obs_list_ref = [0.364155, 0.253828, 0.146033, 0.0712724]
 # z_obs_list = [4.2, 4.6, 5.0, 5.4]
+
+#F_obs_list_ref = [0.146033, 
+F_obs_list_ref = [0.0712724]
+z_obs_list = [5.4]
 
 BoxSize = 20.
 
@@ -29,16 +45,20 @@ NONST_RESCALE = 'YES'
 print("NONST_RESCALE = "+NONST_RESCALE)
 
 #FACTORS = [0.6,0.7,0.8,0.9,1.1,1.2,1.3,1.4]
-FACTORS = [0.6, 0.8, 1.2, 1.4]
-#FACTORS = [1.4]
+#FACTORS = [0.6, 0.8, 1.2, 1.4]
+#FACTORS = [0.5,0.7,0.9,1.1,1.3,1.5]
+FACTORS = [1.3,1.5]
 
 for FACTOR in FACTORS:
 
+	F_obs_list = np.array(F_obs_list_ref)
+	
 	if NONST_RESCALE == 'YES':
-	    F_obs_list = np.array(F_obs_list)
-	    tau_obs_list = -np.log(F_obs_list)
+	    print(F_obs_list)
+	    tau_obs_list = -np.log(F_obs_list_ref)
 	    tau_obs_list_rescaled = FACTOR*tau_obs_list
 	    F_obs_list = np.exp(-tau_obs_list_rescaled)
+	    print(F_obs_list)
 	
 	print("********")
 	
@@ -105,15 +125,21 @@ for FACTOR in FACTORS:
 	
 			print("<F> ="+str(mean_flux))
 			print("observed <F> ="+str(mean_flux_obs))
-	
+
 			if mean_flux < mean_flux_obs:
-				A_list = np.linspace(0.01,1., num=100)
-				print("A < 1")
+				if z_index == 5.0 or z_index == 5.4:
+					A_list = np.linspace(0.4,1., num=1000)
+				else:
+					A_list = np.linspace(0.3,1., num=500)
+				print("A < 1")	
 			
 			elif mean_flux > mean_flux_obs:
-				A_list = np.linspace(1.,10.0, num=100)
-				print("A > 1")
-			
+				if z_index == 5.0 or z_index == 5.4:
+					A_list = np.linspace(1.,1.7, num=1000)
+				else:
+					A_list = np.linspace(1.,1.8, num=500)
+				print("A > 1")				
+	
 			y = []
 			for i,A in zip(range(len(A_list)),A_list):
 				y.append(func_A(A, tau_array, mean_flux_obs, mean_flux))

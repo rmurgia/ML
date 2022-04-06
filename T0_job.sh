@@ -1,14 +1,13 @@
 #! /bin/bash
 
-#SBATCH --partition=regular1
+#SBATCH --partition=regular2
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --hint=nomultithread                                                                                   
 
-#SBATCH --job-name=TAU
-#SBATCH --time=12:00:00
+#SBATCH --job-name=t0
+#SBATCH --time=06:00:00
 #SBATCH --mail-user=rmurgia@sissa.it
 #SBATCH --mail-type=ALL
-#SBATCH --mem=0
 
-python /home/rmurgia/ML/read_tau_ALL_2021.py > TAU
+python /home/rmurgia/ML/compute_T0.py >> T0_output

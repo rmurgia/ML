@@ -6,18 +6,27 @@ import numpy as np
 import os, sys
 from scipy.optimize import minimize
 
+
+print('***************************************************************')
+print('***************************************************************')
+print('***************************************************************')
+print('      !!!!!!!!!!!!!!!!!!! NEW RUN !!!!!!!!!!!!!!!!!!!')
+print('***************************************************************')
+print('***************************************************************')
+print('***************************************************************')
+
 ########################################## INPUT
 
 #root = 'PBHs_'
 #root = ""
 #labels = ["bounded_bestfit"]
-root = "LCDM_neff="
-labels = ['-2.583']
+root = "LCDM_"
+labels = ['neff=-2.302_Tverycold','neff=-2.302_Tveryhot']#,'neff=-2.168','s8=0.697','s8=0.967']
 #labels = ['1e1-5','1e2','1e2-2_NEW','1e2-3_NEW','1e2-5','1e2-7','1e3-5','1e1','1e1-5_NEW','1e2-2','1e2-3'] #which sims
 #labels = ['1e2-4','1e2-6','1e3','1e4']
 
-F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155]#, 0.253828, 0.146033, 0.0712724]
-z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2]#, 4.6, 5.0, 5.4]
+F_obs_list = [0.669181, 0.617042, 0.564612, 0.512514, 0.461362, 0.411733, 0.364155, 0.253828, 0.146033, 0.0712724]
+z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2, 4.6, 5.0, 5.4]
 #F_obs_list = [0.253828, 0.146033, 0.0712724]
 #z_obs_list = [4.6, 5.0, 5.4]
 #F_obs_list = [0.3998125,0.2748366,0.1640340,0.06515656]  #these are the best-fit values from 2110.04024 
@@ -25,7 +34,7 @@ z_obs_list = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0, 4.2]#, 4.6, 5.0, 5.4]
 #F_obs_list = [0.3447517,0.2628851,
 #F_obs_list = [0.1556273,0.04392609] #bounded
 #z_obs_list = [5.4]
-#F_obs_list = [0.06515656]
+#F_obs_list = [0.0712724]
 
 BoxSize = 20.
 
@@ -103,11 +112,17 @@ for sim_index in range(len(labels)):   #loop on sims
 			print("observed <F> ="+str(mean_flux_obs))
 
 		if normalization == 'YES' and mean_flux < mean_flux_obs:
-			A_list = np.linspace(0.0001,1., num=1000)
+			if z_index == 5.0 or z_index == 5.4:
+				A_list = np.linspace(0.09,1., num=500)
+			else:
+				A_list = np.linspace(0.09,1., num=200)
 			print("A < 1")
 		
 		elif normalization == 'YES' and mean_flux > mean_flux_obs:
-			A_list = np.linspace(1.,10.0, num=100)
+			if z_index == 5.0 or z_index == 5.4:
+				A_list = np.linspace(1.,3.0, num=500)
+			else:
+				A_list = np.linspace(1.,3.0, num=200)
 			print("A > 1")
 	
 		elif normalization == 'NO':

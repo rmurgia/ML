@@ -10,4 +10,5 @@
 #SBATCH --mail-user=rmurgia@sissa.it
 #SBATCH --mail-type=ALL
 
-python /home/rmurgia/ML/compute_PF_various_tau_2021.py >> PF_output_taus
+python /home/rmurgia/ML/compute_PF_various_tau_2021.py >> PF_output_LAST
+
